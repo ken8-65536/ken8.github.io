@@ -98,7 +98,7 @@ li.single_img_f5_sub-image-box{
 	min-width: calc(25%-4px);
 }
 li.single_img_f5_sub-image-box:not(:last-child){
-	margin-right: calc(4*4px);
+	margin-right: calc(2*4px);
 }
 img.single_img_f6_sub-image{
 	width: 100%;
