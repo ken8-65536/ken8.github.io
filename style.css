@@ -41,22 +41,38 @@ body{
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
-
+.main{
+	position:relative;
+	display: block;
+	max-width: calc(240*4px);
+	margin: 0 calc(4*4px) calc(16*4px);
+}
 /* シングル
 ------------------------- */
 .single_img_f1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
 	width: 100%;
-	background-color: #eee;
+	margin-bottom: calc(12*4px);
+	width: 100%;
+	background: #eee;
 }
 .single_img_f2_main-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 }
 .single_img_f3_main-box{
-	width: auto;
-	margin: 0 auto;
+	width: 100%;
+	max-width: calc(60*4px);
+	margin-bottom: calc(3*4px);
+	padding: calc(3*4px);
 }
 .single_img_f3_main-box img{
-	
+	width: 100%;
 }
 .single_img_f2_sub-box{
 
