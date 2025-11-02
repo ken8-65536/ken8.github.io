@@ -31,6 +31,9 @@ hr{
 ul li:before{
 	display: none !important;
 }
+li{
+	list-style: none !important;
+}
 /* 共通
 ------------------------- */
 body{
