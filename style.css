@@ -63,6 +63,8 @@ main{
 }
 /* シングル
 ------------------------- */
+/*---info---*/
+/*---image---*/
 .single_info_img_f1{
 	display: flex;
 	justify-content: center;
@@ -112,4 +114,19 @@ li.single_info_img_f5_sub-image-box:not(:last-child){
 }
 img.single_info_img_f6_sub-image{
 	width: 100%;
+}
+/*---summary---*/
+.single_info_summary_f1{
+}
+.single_info_summary_f2_box{
+}
+ul.single_info_summary_f3_list{
+}
+li.single_info_summary_f4_box{
+}
+.single_info_summary_f5_box{
+}
+.single_info_summary_f6_main-box{
+}
+.single_info_summary_f6_sub-box{
 }
