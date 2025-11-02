@@ -96,7 +96,7 @@ ul.single_img_f4_sub-image-list{
 	width: 100%;
 }
 li.single_img_f5_sub-image-box{
-	min-width: 25%;
+	max-width: 25%;
 	border : 1px solid #ddd;
 }
 li.single_img_f5_sub-image-box:not(:last-child){
