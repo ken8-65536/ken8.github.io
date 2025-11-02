@@ -95,7 +95,7 @@ ul.single_img_f4_sub-image-list{
 	width: 100%;
 }
 li.single_img_f5_sub-image-box{
-	min-width: calc(25%-8px);
+	min-width: calc(25%-4px);
 }
 li.single_img_f5_sub-image-box:not(:last-child){
 	margin-right: calc(4*4px);
