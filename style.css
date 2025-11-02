@@ -28,6 +28,42 @@ hr{
 	border: 0;
 }
 
-h2 {
-	font-color: red;
+/* 共通
+------------------------- */
+body{
+	width:100%;
+	overflow-x: hidden;
+	font-family: 'Lato', 'Raleway', 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 400;
+	font-size: calc(4*4px);
+	color: #222;
+	-webkit-text-size-adjust: 100%;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+/* シングル
+------------------------- */
+.single_img_f1{
+	width: 100%;
+	background-color: #eee;
+}
+.single_img_f2_main-box{
+	width: 100%;
+}
+.single_img_f3_main-box{
+	width: auto;
+	margin: 0 auto;
+}
+.single_img_f3_main-box img{
+	
+}
+.single_img_f2_sub-box{
+
+}
+.single_img_f3_sub-box{
+
+}
+.single_img_f3_sub-box img{
+
 }
