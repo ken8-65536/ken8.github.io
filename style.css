@@ -56,7 +56,6 @@ body{
 	flex-flow: column;
 	width: 100%;
 	width: 100%;
-	background: #eee;
 }
 .single_img_f2_main-box{
 	display: flex;
@@ -68,6 +67,7 @@ body{
 	width: 100%;
 	max-width: calc(60*4px);
 	padding: calc(3*4px);
+	background: #eee;
 }
 .single_img_f3_main-box img{
 	width: 100%;
