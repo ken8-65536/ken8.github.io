@@ -102,7 +102,7 @@ ul.single_img_f4_sub-image-list{
 	width: 100%;
 }
 li.single_img_f5_sub-image-box{
-	width: calc(25% - 6px);
+	min-width: calc(25% - 6px);
 	background: #fafafa;
 	border: 1px solid #ddd;
 }
