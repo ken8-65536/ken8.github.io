@@ -47,11 +47,20 @@ body{
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
-.main{
+main{
 	position:relative;
 	display: block;
 	max-width: calc(240*4px);
-	margin: 0 calc(4*4px) calc(16*4px);
+	margin: 0 calc(4*4px) 0;
+}
+/*---自作スライダー---*/
+.function_slider-scroll{
+	overflow-x: auto;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+.function_slider-scroll::-webkit-scrollbar{
+	display:none;
 }
 /* シングル
 ------------------------- */
