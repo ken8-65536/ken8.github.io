@@ -175,7 +175,7 @@ li.single_info_tag_f4_box:not(:last-child)::after {
 	content: "";
 	width: 1px;
 	height: calc(100% - 4px);
-	background: #fafafa;
+	background: #eee;
 }
 .single_info_tag_f5_sub-box{
 	display: flex;
