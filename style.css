@@ -167,11 +167,21 @@ ul.single_info_tag_f3_list{
 	width: 100%;
 }
 li.single_info_tag_f4_box{
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	min-width: 33.3%;
+}
+li.single_info_tag_f4_box::after {
+	position: absolute; /*--positionを追加--*/
+	top: 0;
+	left: 100%;
+	content: "";
+	width: 1px; /*--縦線の太さ(幅)--*/
+	height: 100%;
+	background: #333; /*--縦線の色--*/
 }
 .single_info_tag_f5_sub-box{
 	margin-bottom: calc(3*4px);
