@@ -109,6 +109,9 @@ ul.single_info_img_f4_sub-image-list{
 	width: 100%;
 }
 li.single_info_img_f5_sub-image-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 25%;
 	min-width: calc(25% - 10px);
 	max-width: calc(25% - 10px);
