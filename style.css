@@ -165,6 +165,9 @@ ul.single_info_tag_f3_list{
 	width: 100%;
 }
 li.single_info_tag_f4_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	min-width: 33.3%;
 }
 .single_info_tag_f5_sub-box{
