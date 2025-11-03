@@ -252,6 +252,8 @@ li.single_info_tag_f7_title{
 }
 /*---store---*/
 .single_store_f1{
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	aspect-ratio: 16 / 9;
 }
@@ -268,7 +270,7 @@ li.single_info_tag_f7_title{
 }
 /*---store-image---*/
 .single_store_f2_img-box{
-	width: 33.3%;;
+	width: 33.3%;
 }
 .single_store_f3_box{
 	display: flex;
@@ -281,6 +283,7 @@ img.single_store_f4_image{
 }
 /*---store-info---*/
 .single_store_f2_box{
+	width: 66.7%;
 }
 .single_store_f3_info-box{
 }
