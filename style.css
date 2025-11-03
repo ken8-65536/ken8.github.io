@@ -304,6 +304,7 @@ ul.single_store_f5_list{
 	flex-wrap: wrap;
 }
 li.single_store_f6_store-name{
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
