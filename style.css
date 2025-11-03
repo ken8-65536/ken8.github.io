@@ -109,7 +109,9 @@ ul.single_info_img_f4_sub-image-list{
 	width: 100%;
 }
 li.single_info_img_f5_sub-image-box{
+	width: 25%;
 	min-width: calc(25% - 10px);
+	max-width: calc(25% - 10px);
 	background: #fafafa;
 	border: 1px solid #ddd;
 }
