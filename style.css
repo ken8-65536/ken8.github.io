@@ -232,9 +232,9 @@ li.single_info_tag_f7_title{
 .single_impression_f3_box{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 .single_impression_f4_title{
+	margin-right: calc(3*4px);
 	font-size: calc(5*4px);
 }
 .single_impression_f4_box{
