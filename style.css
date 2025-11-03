@@ -157,12 +157,11 @@ li.single_info_summary_f4_sub-box{
 /*---tag---*/
 .single_info_tag_f1{
 }
-.single_info_tag_f2_main-box{
+.single_info_tag_f2_main-box{/*---スクロール機能あり---*/
 	margin-bottom: calc(1*4px);
 }
 ul.single_info_tag_f3_list{
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	width: 100%;
 }
