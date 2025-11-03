@@ -265,7 +265,6 @@ li.single_info_tag_f7_title{
 .single_store_f1_box{
 	display: flex;
 	width: 100%;
-	aspect-ratio: 16 / 9;
 }
 /*---store-image---*/
 .single_store_f2_img-box{
@@ -283,6 +282,9 @@ img.single_store_f4_image{
 }
 /*---store-info---*/
 .single_store_f2_box{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 	width: 66.7%;
 }
 .single_store_f3_info-box{
