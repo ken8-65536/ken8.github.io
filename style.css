@@ -174,7 +174,7 @@ li.single_info_tag_f4_box{
 	align-items: center;
 	min-width: 33.3%;
 }
-li.single_info_tag_f4_box::after {
+li.single_info_tag_f4_box:not(:last-child)::after {
 	position: absolute;
 	top: 0;
 	left: 100%;
