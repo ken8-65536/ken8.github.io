@@ -50,6 +50,8 @@ body{
 main{
 	position:relative;
 	display: block;
+	width: 100%;
+	max-width: calc(60*4px);
 	margin: 0 calc(4*4px) 0;
 }
 /*---自作スライダー---*/
@@ -63,6 +65,8 @@ main{
 }
 /* シングル
 ------------------------- */
+article.single-article{
+}
 /*---info---*/
 /*---image---*/
 .single_info_img_f1{
@@ -81,7 +85,6 @@ main{
 }
 .single_info_img_f3_main-box{
 	width: 100%;
-	max-width: calc(60*4px);
 	padding: calc(3*4px);
 	background: #eee;
 	border: 1px solid #ddd;
@@ -95,9 +98,8 @@ img.single_info_img_f4_main-image{
 	align-items: center;
 	width: 100%;
 }
-.single_info_img_f3_sub-box{
+.single_info_img_f3_sub-box{/*---スクロール機能あり---*/
 	width: 100%;
-	max-width: calc(60*4px);
 }
 ul.single_info_img_f4_sub-image-list{
 	display: flex;
