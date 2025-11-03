@@ -248,4 +248,5 @@ li.single_info_tag_f7_title{
 }
 .single_impression_f5_text p{
 	margin-bottom: calc(4*4px);
+	line-height: 1.25;
 }
