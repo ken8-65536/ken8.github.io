@@ -37,7 +37,7 @@ li{
 /* 共通
 ------------------------- */
 body{
-	width:100%;
+	width: 100%;
 	overflow-x: hidden;
 	font-family: 'Lato', 'Raleway', 'M PLUS Rounded 1c', sans-serif;
 	font-weight: 400;
@@ -48,7 +48,7 @@ body{
 	overflow-wrap: break-word;
 }
 main{
-	position:relative;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -120,14 +120,25 @@ img.single_info_img_f6_sub-image{
 }
 /*---summary---*/
 .single_info_summary_f1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
-.single_info_summary_f2_box{
+.single_info_summary_f2_box{/*---スクロール機能あり---*/
 }
 ul.single_info_summary_f3_list{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
 }
 li.single_info_summary_f4_box{
 }
 .single_info_summary_f5_box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .single_info_summary_f6_main-box{
 }
