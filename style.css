@@ -134,11 +134,18 @@ ul.single_info_summary_f3_list{
 }
 li.single_info_summary_f4_box{
 }
-.single_info_summary_f5_box{
+.single_info_summary_f5_main-box,
+.single_info_summary_f5_sub-box{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.single_info_summary_f5_main-box{
+	width: 100%;
+}
+.single_info_summary_f5_sub-box{
+	width: 50%;
 }
 .single_info_summary_f6_main-box{
 }
