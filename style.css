@@ -219,7 +219,7 @@ li.single_info_tag_f7_title{
 }
 .single_impression_f2_text-box{
 	width: 100%;
-	margin-bottom: calc(16*4px);
+	margin-bottom: calc(8*4px);
 }
 .single_impression_f3_title{
 	display: flex;
