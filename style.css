@@ -49,9 +49,11 @@ body{
 }
 main{
 	position:relative;
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	max-width: calc(60*4px);
+	max-width: calc(240*4px);
 	margin: 0 calc(4*4px) 0;
 }
 /*---自作スライダー---*/
