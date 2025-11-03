@@ -162,7 +162,6 @@ li.single_info_summary_f4_sub-box{
 }
 ul.single_info_tag_f3_list{
 	display: flex;
-	align-items: center;
 	width: 100%;
 }
 li.single_info_tag_f4_box{
