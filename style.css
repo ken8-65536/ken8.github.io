@@ -263,8 +263,6 @@ li.single_info_tag_f7_title{
 	font-size: calc(6*4px);
 }
 .single_store_f1_box{
-	display: flex;
-	flex-wrap: wrap;
 	width: 100%;
 	aspect-ratio: 16 / 9;
 }
