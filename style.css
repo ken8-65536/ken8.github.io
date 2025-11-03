@@ -258,9 +258,13 @@ li.single_info_tag_f7_title{
 }
 /*---store-image---*/
 .single_store_f2_img-box{
-	
+	width: 33.3%;;
 }
 .single_store_f3_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 img.single_store_f4_image{
 	height: 100%;
