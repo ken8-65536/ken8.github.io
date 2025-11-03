@@ -250,3 +250,30 @@ li.single_info_tag_f7_title{
 .single_impression_f5_text p:not(:last-child){
 	margin-bottom: calc(4*4px);
 }
+/*---store---*/
+.single_store_f1{
+}
+/*---store-image---*/
+.single_store_f2_img-box{
+}
+.single_store_f3_box{
+}
+img.single_store_f4_image{
+}
+/*---store-info---*/
+.single_store_f2_box{
+}
+.single_store_f3_info-box{
+}
+.single_store_f4_title{
+}
+.single_store_f4_author{
+}
+.single_store_f3_store-box{
+}
+.single_store_f4_box{
+}
+ul.single_store_f5_list{
+}
+li.single_store_f6_store-name{
+}
