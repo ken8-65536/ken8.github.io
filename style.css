@@ -252,6 +252,8 @@ li.single_info_tag_f7_title{
 }
 /*---store---*/
 .single_store_f1{
+	display: flex;
+	flex-wrap: nowrap;
 	width: 100%;
 	aspect-ratio: 16 / 9;
 }
