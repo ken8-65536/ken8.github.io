@@ -227,6 +227,7 @@ li.single_info_tag_f7_title{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: calc(6*4px);
 	font-size: calc(6*4px);
 }
 .single_impression_f3_box{
@@ -240,10 +241,11 @@ li.single_info_tag_f7_title{
 .single_impression_f4_box{
 }
 .single_impression_f5_title{
+	margin-bottom: calc(5*4px);
 	font-size: calc(5*4px);
 }
 .single_impression_f5_text{
 }
 .single_impression_f5_text p{
-	margin-bottom: calc(2*4px);
+	margin-bottom: calc(4*4px);
 }
