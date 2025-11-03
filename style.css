@@ -251,22 +251,22 @@ li.single_info_tag_f7_title{
 	margin-bottom: calc(4*4px);
 }
 /*---store---*/
-.single_store_f1{
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	aspect-ratio: 16 / 9;
-}
 /*---title---*/
-.single_store_f2_title-box{
+.single_store_f1_title-box{
 	width: 100%;
 	margin-bottom: calc(8*4px);
 }
-.single_store_f3_title{
+.single_store_f2_title{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: calc(6*4px);
+}
+.single_store_f1_box{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	aspect-ratio: 16 / 9;
 }
 /*---store-image---*/
 .single_store_f2_img-box{
