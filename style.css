@@ -163,6 +163,7 @@ li.single_info_summary_f4_sub-box{
 ul.single_info_tag_f3_list{
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	width: 100%;
 }
 li.single_info_tag_f4_box{
@@ -180,9 +181,15 @@ li.single_info_tag_f4_box{
 .single_info_tag_f5_main-box{
 }
 ul.single_info_tag_f6_list{
+	list-style: inside;
 }
 li.single_info_tag_f7_box{
 	margin-bottom: calc(2*4px);
+}
+li.single_info_tag_f4_border-box{
+	width: 1px;
+	height: 80%;
+	background: #ddd;
 }
 .single_info_tag_f2_sub-box{
 	display: flex;
