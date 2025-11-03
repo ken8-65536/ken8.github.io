@@ -253,16 +253,17 @@ li.single_info_tag_f7_title{
 /*---store---*/
 .single_store_f1{
 	display: flex;
-	flex-wrap: nowrap;
 	width: 100%;
 	aspect-ratio: 16 / 9;
 }
 /*---store-image---*/
 .single_store_f2_img-box{
+	
 }
 .single_store_f3_box{
 }
 img.single_store_f4_image{
+	height: 100%;
 }
 /*---store-info---*/
 .single_store_f2_box{
