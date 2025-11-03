@@ -168,10 +168,21 @@ li.single_info_tag_f4_box{
 	min-width: 33.3%;
 }
 .single_info_tag_f5_sub-box{
+	font-size: calc(3*4px);
+	color: #777;
 }
 .single_info_tag_f5_main-box{
 }
 ul.single_info_tag_f6_list{
 }
 li.single_info_tag_f7_box{
+}
+.single_info_tag_f2_sub-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.single_info_tag_f3_box{
+	font-size: calc(3*4px);
+	color: #777;
 }
