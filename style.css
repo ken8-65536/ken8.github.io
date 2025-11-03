@@ -76,6 +76,7 @@ article.single-article{
 	align-items: center;
 	flex-flow: column;
 	width: 100%;
+	margin-bottom: calc(8*4px);
 }
 .single_info_img_f2_main-box{
 	display: flex;
