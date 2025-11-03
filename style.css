@@ -146,7 +146,7 @@ li.single_info_summary_f4_main-box{
 	margin-bottom: calc(4*4px);
 }
 li.single_info_summary_f4_sub-box{
-	min-width: 33%;
+	min-width: 33.3%;
 }
 .single_info_summary_f5_box{
 	display: flex;
