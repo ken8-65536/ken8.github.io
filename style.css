@@ -189,6 +189,7 @@ li.single_info_tag_f4_box:not(:last-child)::after {
 	padding: 0 calc(2*4px);
 }
 ul.single_info_tag_f6_list{
+	min-height: calc(18*4px);
 }
 li.single_info_tag_f7_box{
 	margin-bottom: calc(2*4px);
