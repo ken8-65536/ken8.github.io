@@ -158,7 +158,7 @@ li.single_info_summary_f4_sub-box{
 .single_info_tag_f1{
 }
 .single_info_tag_f2_main-box{
-	margin-bottom: calc(2*4px);
+	margin-bottom: calc(1*4px);
 }
 ul.single_info_tag_f3_list{
 	display: flex;
@@ -173,7 +173,7 @@ li.single_info_tag_f4_box{
 	min-width: 33.3%;
 }
 .single_info_tag_f5_sub-box{
-	margin-bottom: calc(2*4px);
+	margin-bottom: calc(3*4px);
 	font-size: calc(6*4px);
 	color: #777;
 }
@@ -182,6 +182,7 @@ li.single_info_tag_f4_box{
 ul.single_info_tag_f6_list{
 }
 li.single_info_tag_f7_box{
+	margin-bottom: calc(2*4px);
 }
 .single_info_tag_f2_sub-box{
 	display: flex;
