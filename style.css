@@ -166,9 +166,6 @@ ul.single_info_tag_f3_list{
 }
 li.single_info_tag_f4_box{
 	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	min-width: 33.3%;
 }
 li.single_info_tag_f4_box:not(:last-child)::after {
@@ -181,6 +178,9 @@ li.single_info_tag_f4_box:not(:last-child)::after {
 	background: #ddd;
 }
 .single_info_tag_f5_sub-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-bottom: calc(3*4px);
 	font-size: calc(6*4px);
 	color: #777;
