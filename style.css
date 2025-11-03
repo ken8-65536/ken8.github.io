@@ -221,9 +221,6 @@ li.single_info_tag_f7_title{
 	width: 100%;
 	margin-bottom: calc(16*4px);
 }
-.single_impression_f2_text-box:last-child{
-	margin-bottom: calc(8*4px);
-}
 .single_impression_f3_title{
 	display: flex;
 	justify-content: center;
