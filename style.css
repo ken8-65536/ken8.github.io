@@ -129,7 +129,7 @@ img.single_info_img_f6_sub-image{
 }
 ul.single_info_summary_f3_list{
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	width: 100%;
 }
 li.single_info_summary_f4_box{
