@@ -137,6 +137,7 @@ li.single_info_summary_f4_box{
 }
 li.single_info_summary_f4_main-box{
 	width: 100%;
+	margin-bottom: calc(4*4px);
 }
 li.single_info_summary_f4_sub-box{
 	width: 50%;
@@ -148,6 +149,7 @@ li.single_info_summary_f4_sub-box{
 	align-items: center;
 }
 .single_info_summary_f6_main-box{
+	margin-bottom: calc(2*4px);
 	font-size: calc(6*4px);
 }
 .single_info_summary_f6_sub-box{
