@@ -131,7 +131,7 @@ img.single_info_img_f6_sub-image{
 	align-items: center;
 	width: 100%;
 }
-.single_info_summary_f2_box{/*---スクロール機能あり---*/
+.single_info_summary_f2_box{
 	width: 100%;
 }
 ul.single_info_summary_f3_list{
@@ -144,6 +144,7 @@ li.single_info_summary_f4_box{
 li.single_info_summary_f4_main-box{
 	width: 100%;
 	margin-bottom: calc(4*4px);
+	padding: 0 calc(2*4px);
 }
 li.single_info_summary_f4_sub-box{
 	min-width: 33.3%;
@@ -160,4 +161,5 @@ li.single_info_summary_f4_sub-box{
 }
 .single_info_summary_f6_sub-box{
 	font-size: calc(3*4px);
+	color: #777;
 }
