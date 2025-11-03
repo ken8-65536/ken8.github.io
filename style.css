@@ -302,6 +302,18 @@ ul.single_store_f5_list{
 	flex-wrap: wrap;
 }
 li.single_store_f6_store-name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 50%;
 	font-size: calc(4*4px);
+}
+li.single_store_f6_store-name:nth-child(odd)::after {
+	position: absolute;
+	top: 4px;
+	left: 100%;
+	content: "";
+	width: 1px;
+	height: calc(100% - 4px);
+	background: #eee;
 }
