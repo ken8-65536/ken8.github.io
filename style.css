@@ -298,7 +298,9 @@ img.single_store_f4_image{
 .single_store_f4_box{
 }
 ul.single_store_f5_list{
+	display: flex;
 }
 li.single_store_f6_store-name{
+	width: 50%;
 	font-size: calc(4*4px);
 }
