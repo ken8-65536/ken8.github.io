@@ -45,7 +45,6 @@ body{
 	color: #222;
 }
 main{
-	position: relative;
 	margin: 0 calc(4*4px) 0;
 }
 /*---自作スライダー---*/
