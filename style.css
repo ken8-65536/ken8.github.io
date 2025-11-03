@@ -46,6 +46,7 @@ body{
 	-webkit-text-size-adjust: 100%;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
+	-webkit-overflow-scrolling: touch;
 }
 main{
 	position: relative;
