@@ -166,7 +166,7 @@ ul.single_info_tag_f3_list{
 }
 li.single_info_tag_f4_box{
 	position: relative;
-	min-width: 33.3%;
+	min-width: calc(33.3% - 0.8px);
 }
 li.single_info_tag_f4_box:not(:last-child)::after {
 	position: absolute;
