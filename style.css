@@ -158,6 +158,7 @@ li.single_info_summary_f4_sub-box{
 .single_info_tag_f1{
 }
 .single_info_tag_f2_main-box{
+	margin-bottom: calc(2*4px);
 }
 ul.single_info_tag_f3_list{
 	display: flex;
@@ -172,7 +173,8 @@ li.single_info_tag_f4_box{
 	min-width: 33.3%;
 }
 .single_info_tag_f5_sub-box{
-	font-size: calc(3*4px);
+	margin-bottom: calc(2*4px);
+	font-size: calc(6*4px);
 	color: #777;
 }
 .single_info_tag_f5_main-box{
