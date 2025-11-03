@@ -313,10 +313,10 @@ li.single_store_f6_store-name{
 }
 li.single_store_f6_store-name:nth-child(odd)::after {
 	position: absolute;
-	top: 4px;
+	top: 0;
 	left: 100%;
 	content: "";
 	width: 1px;
-	height: calc(100% - 4px);
+	height: 100%;
 	background: #eee;
 }
