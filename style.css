@@ -106,7 +106,7 @@ li.single_info_img_f5_sub-image-box{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-width: calc(25%);
+	min-width: calc(25% - 8px);
 	aspect-ratio: 1;
 	background: #fafafa;
 	border: 1px solid #ddd;
