@@ -213,7 +213,11 @@ li.single_info_tag_f7_title{
 .single_impression_f1{
 	width: 100%;
 }
-.single_impression_f2_box{
+.single_impression_f2_title-box{
+	width: 100%;
+	margin-bottom: calc(8*4px);
+}
+.single_impression_f2_text-box{
 	width: 100%;
 	margin-bottom: calc(16*4px);
 }
