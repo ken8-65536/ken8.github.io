@@ -268,7 +268,8 @@ li.single_info_tag_f7_title{
 }
 /*---store-image---*/
 .single_store_f2_img-box{
-	width: 33.3%;
+	width: calc(33.3% - 8px);
+	margin-right: calc(2*4px);
 }
 .single_store_f3_box{
 	display: flex;
@@ -286,8 +287,10 @@ img.single_store_f4_image{
 .single_store_f3_info-box{
 }
 .single_store_f4_title{
+	font-size: calc(4*4px);
 }
 .single_store_f4_author{
+	font-size: calc(3*4px);
 }
 .single_store_f3_store-box{
 }
@@ -296,4 +299,5 @@ img.single_store_f4_image{
 ul.single_store_f5_list{
 }
 li.single_store_f6_store-name{
+	font-size: calc(4*4px);
 }
