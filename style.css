@@ -218,20 +218,32 @@ li.single_info_tag_f7_title{
 }
 /*---impression---*/
 .single_impression_f1{
+	width: 100%;
 }
 .single_impression_f2_box{
+	width: 100%;
 }
 .single_impression_f3_title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: calc(6*4px);
 }
 .single_impression_f3_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .single_impression_f4_title{
+	font-size: calc(5*4px);
 }
 .single_impression_f4_box{
 }
 .single_impression_f5_title{
+	font-size: calc(5*4px);
 }
 .single_impression_f5_text{
 }
 .single_impression_f5_text p{
+	margin-bottom: calc(2*4px);
 }
