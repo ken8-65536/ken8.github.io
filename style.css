@@ -43,16 +43,9 @@ body{
 	font-weight: 400;
 	font-size: calc(4*4px);
 	color: #222;
-	-webkit-text-size-adjust: 100%;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	-webkit-overflow-scrolling: touch;
 }
 main{
 	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin: 0 calc(4*4px) 0;
 }
 /*---自作スライダー---*/
