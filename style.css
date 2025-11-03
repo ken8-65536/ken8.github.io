@@ -288,10 +288,12 @@ img.single_store_f4_image{
 .single_store_f3_info-box{
 }
 .single_store_f4_title{
-	font-size: calc(4*4px);
+	font-size: calc(5*4px);
+	margin-bottom: calc(2*4px);
 }
 .single_store_f4_author{
 	font-size: calc(3*4px);
+	color: #777;
 }
 .single_store_f3_store-box{
 }
@@ -306,7 +308,7 @@ li.single_store_f6_store-name{
 	justify-content: center;
 	align-items: center;
 	width: 50%;
-	font-size: calc(4*4px);
+	font-size: calc(5*4px);
 }
 li.single_store_f6_store-name:nth-child(odd)::after {
 	position: absolute;
