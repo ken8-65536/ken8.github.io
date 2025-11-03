@@ -169,7 +169,6 @@ li.single_info_tag_f4_box{
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	min-width: 33.3%;
 }
