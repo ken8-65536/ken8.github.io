@@ -71,17 +71,10 @@ article.single-article{
 /*---info---*/
 /*---image---*/
 .single_info_img_f1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
 	width: 100%;
 	margin-bottom: calc(8*4px);
 }
 .single_info_img_f2_main-box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 100%;
 	margin-bottom: calc(4*4px);
 }
@@ -99,9 +92,6 @@ img.single_info_img_f4_main-image{
 	height: 100%;
 }
 .single_info_img_f2_sub-box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 100%;
 }
 .single_info_img_f3_sub-box{/*---スクロール機能あり---*/
@@ -129,9 +119,6 @@ img.single_info_img_f6_sub-image{
 }
 /*---summary---*/
 .single_info_summary_f1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 100%;
 	margin-bottom: calc(8*4px);
 }
@@ -173,8 +160,12 @@ li.single_info_summary_f4_sub-box{
 .single_info_tag_f2_main-box{
 }
 ul.single_info_tag_f3_list{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 }
 li.single_info_tag_f4_box{
+	min-width: 33.3%;
 }
 .single_info_tag_f5_sub-box{
 }
