@@ -126,6 +126,7 @@ img.single_info_img_f6_sub-image{
 	width: 100%;
 }
 .single_info_summary_f2_box{/*---スクロール機能あり---*/
+	width: 100%;
 }
 ul.single_info_summary_f3_list{
 	display: flex;
