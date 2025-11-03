@@ -183,7 +183,7 @@ li.single_info_tag_f4_box:not(:last-child)::after {
 	align-items: center;
 	margin-bottom: calc(3*4px);
 	font-size: calc(5*4px);
-	color: #777;
+	color: #555;
 }
 .single_info_tag_f5_main-box{
 	padding: 0 calc(2*4px);
