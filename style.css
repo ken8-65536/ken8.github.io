@@ -156,6 +156,7 @@ li.single_info_summary_f4_sub-box{
 }
 /*---tag---*/
 .single_info_tag_f1{
+	margin-bottom: calc(8*4px);
 }
 .single_info_tag_f2_main-box{/*---スクロール機能あり---*/
 	margin-bottom: calc(1*4px);
