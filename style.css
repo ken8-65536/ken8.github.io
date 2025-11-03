@@ -186,9 +186,9 @@ li.single_info_tag_f4_box:not(:last-child)::after {
 	color: #777;
 }
 .single_info_tag_f5_main-box{
+	padding: 0 calc(2*4px);
 }
 ul.single_info_tag_f6_list{
-	list-style: inside;
 }
 li.single_info_tag_f7_box{
 	margin-bottom: calc(2*4px);
