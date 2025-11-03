@@ -170,12 +170,12 @@ li.single_info_tag_f4_box{
 }
 li.single_info_tag_f4_box:not(:last-child)::after {
 	position: absolute;
-	top: 0;
+	top: 4px;
 	left: 100%;
 	content: "";
 	width: 1px;
-	height: 100%;
-	background: #ddd;
+	height: calc(100% - 4px);
+	background: #fafafa;
 }
 .single_info_tag_f5_sub-box{
 	display: flex;
