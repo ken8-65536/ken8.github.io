@@ -148,6 +148,8 @@ li.single_info_summary_f4_sub-box{
 	align-items: center;
 }
 .single_info_summary_f6_main-box{
+	font-size: calc(6*4px);
 }
 .single_info_summary_f6_sub-box{
+	font-size: calc(3*4px);
 }
