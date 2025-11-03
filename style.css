@@ -215,7 +215,7 @@ li.single_info_tag_f7_title{
 }
 .single_impression_f2_box{
 	width: 100%;
-	margin-bottom: calc(6*4px);
+	margin-bottom: calc(16*4px);
 }
 .single_impression_f3_title{
 	display: flex;
@@ -241,6 +241,8 @@ li.single_info_tag_f7_title{
 .single_impression_f5_text{
 }
 .single_impression_f5_text p{
-	margin-bottom: calc(4*4px);
 	line-height: 1.25;
+}
+.single_impression_f5_text p:not(:last-child){
+	margin-bottom: calc(4*4px);
 }
