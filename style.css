@@ -92,7 +92,7 @@ article.single-article{
 	width: 100%;
 	aspect-ratio: 1;
 	padding: calc(3*4px);
-	background: #eee;
+	background: #fafafa;
 	border: 1px solid #ddd;
 }
 img.single_info_img_f4_main-image{
@@ -133,6 +133,7 @@ img.single_info_img_f6_sub-image{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	margin-bottom: calc(8*4px);
 }
 .single_info_summary_f2_box{
 	width: 100%;
