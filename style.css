@@ -187,6 +187,8 @@ li.single_info_tag_f7_box{
 	margin-bottom: calc(2*4px);
 }
 li.single_info_tag_f4_border-box{
+	content: "";
+	display: block;
 	width: 1px;
 	height: 80%;
 	background: #ddd;
