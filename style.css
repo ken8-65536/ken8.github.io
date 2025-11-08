@@ -290,7 +290,7 @@ li.single_store_f4_title:not(:last-child)::after {
 	height: calc(100% - 16px);
 	background: #aaa;
 }
-li.single_store_f4_title:nth-child(-n+6)::after {
+li.single_store_f4_title:nth-child(-n+6)::before {
 	position: absolute;
 	top: 100%;
 	left: 8px;
