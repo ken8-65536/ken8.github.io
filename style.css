@@ -277,7 +277,7 @@ li.single_store_f4_title{
 	justify-content: center;
 	align-items: center;
 	min-width: 33.3%;
-	font-size: calc(5*4px);
+	font-size: calc(6*4px);
 }
 li.single_store_f4_title:not(:last-child)::after {
 	position: absolute;
