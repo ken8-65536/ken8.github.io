@@ -172,7 +172,7 @@ li.single_info_tag_f4_box:not(:last-child)::after {
 	left: 100%;
 	content: "";
 	width: 1px;
-	height: calc(100% - 4px);
+	height: calc(100% - 8px);
 	background: #eee;
 }
 .single_info_tag_f5_title{
@@ -292,10 +292,10 @@ li.single_store_f4_title{
 }
 li.single_store_f4_title:not(:last-child)::after {
 	position: absolute;
-	top: 0;
+	top: 8px;
 	left: 100%;
 	content: "";
 	width: 1px;
-	height: 100%;
+	height: calc(100% - 16px);
 	background: #aaa;
 }
