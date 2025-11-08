@@ -268,8 +268,18 @@ li.single_info_tag_f7_title{
 .single_store_f2_box{
 }
 ul.single_store_f3_list{
+	position: relative;
 	display: flex;
 	width: 100%;
+}
+ul.single_store_f3_list:not(:last-child)::after {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #aaa;
 }
 li.single_store_f4_title{
 	position: relative;
