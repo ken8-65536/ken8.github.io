@@ -264,3 +264,16 @@ li.single_info_tag_f7_title{
 	align-items: center;
 	font-size: calc(6*4px);
 }
+/*---box---*/
+.single_store_f2_box{
+}
+ul.single_store_f3_list{
+}
+li.single_store_f4_title{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: calc(33.3% - 3.3px);
+	font-size: calc(5*4px);
+}
