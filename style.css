@@ -274,6 +274,6 @@ li.single_store_f4_title{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-width: calc(33.3% - 3.3px);
+	min-width: 33.3%;
 	font-size: calc(5*4px);
 }
