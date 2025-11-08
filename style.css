@@ -166,7 +166,7 @@ li.single_info_tag_f4_box{
 	position: relative;
 	min-width: calc(33.3% - 3.3px);
 }
-li.single_info_tag_f4_box:not(:last-child)::after {
+li.single_info_tag_f4_box:not(:last-child)::after{
 	position: absolute;
 	top: 4px;
 	left: 100%;
@@ -281,7 +281,7 @@ li.single_store_f4_title{
 	aspect-ratio: 16 / 9;
 	font-size: calc(5*4px);
 }
-li.single_store_f4_title:not(:last-child)::after {
+li.single_store_f4_title:not(:last-child)::after{
 	position: absolute;
 	top: 8px;
 	left: 100%;
@@ -290,7 +290,7 @@ li.single_store_f4_title:not(:last-child)::after {
 	height: calc(100% - 16px);
 	background: #aaa;
 }
-li.single_store_f4_title:nth-child(-n+6)::before {
+li.single_store_f4_title:nth-child(-n+6) div::after{
 	position: absolute;
 	top: 100%;
 	left: 8px;
