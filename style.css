@@ -287,5 +287,5 @@ li.single_store_f4_title:not(:last-child)::after {
 	content: "";
 	width: 1px;
 	height: 100%;
-	background: #eee;
+	background: #aaa;
 }
