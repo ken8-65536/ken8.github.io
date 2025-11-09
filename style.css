@@ -355,7 +355,10 @@ ul.single_related_f4_list{
 	width: 100%;
 }
 li.single_related_f5_box{
-	min-width: calc(50%);
+	min-width: calc(50% - 8px);
+}
+li.single_related_f5_box.over2{
+	min-width: calc(50% - 20px);
 }
 li.single_related_f5_box:not(:last-child){
 	margin-right: calc(4*4px);
