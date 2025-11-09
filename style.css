@@ -125,7 +125,6 @@ img.single_info_img_f4_main-image{
 }
 ul.single_info_img_f4_sub-image-list{
 	display: flex;
-	flex-wrap: nowrap;
 	width: 100%;
 }
 li.single_info_img_f5_sub-image-box{
@@ -354,6 +353,9 @@ li.single_store_f4_title:not(:last-child)::after{
 ul.single_related_f4_list{
 	display: flex;
 	width: 100%;
+}
+li.single_related_f5_box{
+	min-width: calc(50%);
 }
 li.single_related_f5_box:not(:last-child){
 	margin-right: calc(4*4px);
