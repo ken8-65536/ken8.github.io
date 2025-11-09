@@ -133,7 +133,6 @@ img.single_info_img_f6_sub-image{
 /*---summary---*/
 .single_info_summary_f1{
 	width: 100%;
-	margin-bottom: calc(8*4px);
 }
 .single_info_summary_f2_box{
 	width: 100%;
@@ -152,6 +151,7 @@ li.single_info_summary_f4_main-box{
 }
 li.single_info_summary_f4_sub-box{
 	min-width: 33.3%;
+	margin-bottom: calc(8*4px);
 }
 .single_info_summary_f5_box{
 	display: flex;
