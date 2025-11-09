@@ -373,6 +373,7 @@ li.single_related_f6_box{
 }
 .single_related_f4_article-box.over2 li.single_related_f6_box{
 	min-width: 50%;
+	margin-right: calc(4*4px);
 }
 a.single_related_f7_link{
 	display: block;
