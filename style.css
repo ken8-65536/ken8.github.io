@@ -152,13 +152,13 @@ li.single_info_summary_f4_main-box{
 li.single_info_summary_f4_sub-box{
 	margin-bottom: calc(8*4px);
 }
-li.single_info_summary_f4_sub-box.1of3{
+.single_info_summary_f4_sub-box.1of3{
 	min-width: 33.3%;
 }
-li.single_info_summary_f4_sub-box.2of3{
+.single_info_summary_f4_sub-box.2of3{
 	min-width: 66.6%;
 }
-li.single_info_summary_f4_sub-box.3of3{
+.single_info_summary_f4_sub-box.3of3{
 	min-width: 100%;
 }
 .single_info_summary_f5_box{
