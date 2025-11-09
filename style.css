@@ -47,6 +47,10 @@ body{
 main{
 	margin: 0 calc(4*4px) 0;
 }
+a{
+	text-decoration: none;
+	color: #06c;
+}
 /*---自作スライダー---*/
 .func_slider-scroll{
 	overflow-x: auto;
