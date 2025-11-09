@@ -300,6 +300,11 @@ li.single_store_f4_title{
 	aspect-ratio: 16 / 9;
 	font-size: calc(5*4px);
 }
+li.single_store_f4_title a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 li.single_store_f4_title:not(:last-child)::after{
 	position: absolute;
 	top: 8px;
