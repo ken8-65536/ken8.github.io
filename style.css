@@ -342,12 +342,18 @@ li.single_store_f4_title:not(:last-child)::after{
 .single_related_f1{
 }
 .single_related_f2_main-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .single_related_f3_main-box{
 }
 .single_related_f4_title-box{
+	width: 50%;
 }
 .single_related_f4_article-box{
+	width: 100%;
 }
 ul.single_related_f5_list{
 }
@@ -356,8 +362,11 @@ li.single_related_f6_box{
 .single_related_f7_image-box{
 }
 img.single_related_f8_image{
+	height: 100%;
 }
 .single_related_f7_title-box{
 }
 .single_related_f3_title-box{
+	font-size: calc(3*4px);
+	color: #777;
 }
