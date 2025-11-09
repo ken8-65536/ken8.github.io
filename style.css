@@ -364,7 +364,7 @@ li.single_related_f5_box:not(:last-child){
 	margin-right: calc(4*4px);
 }
 .single_related_f6_title-box{
-	font-size: calc(12*4px);
+	font-size: calc(10*4px);
 	font-weight: 800;
 	line-height: 1.25;
 	color: #999;
