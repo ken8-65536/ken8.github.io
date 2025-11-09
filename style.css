@@ -354,8 +354,9 @@ li.single_store_f4_title:not(:last-child)::after{
 }
 .single_related_f4_title-box{
 	width: 50%;
-	font-size: calc(16*4px);
+	font-size: calc(12*4px);
 	font-weight: 800;
+	line-height: 1.25;
 	color: #999;
 }
 .single_related_f4_article-box{
