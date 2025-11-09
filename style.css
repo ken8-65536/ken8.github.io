@@ -373,6 +373,8 @@ li.single_related_f6_box{
 }
 .single_related_f4_article-box.over2 li.single_related_f6_box{
 	min-width: calc(50% - 32px);
+}
+.single_related_f4_article-box.over2 li.single_related_f6_box:not(:last-child){
 	margin-right: calc(4*4px);
 }
 a.single_related_f7_link{
