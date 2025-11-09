@@ -350,10 +350,10 @@ li.single_store_f4_title:not(:last-child)::after{
 }
 .single_related_f3_main-box{
 	display: flex;
-	justify-content: space-between;
 }
 .single_related_f4_title-box{
 	width: calc(50% - 8px);
+	margin-right: calc(4*4px);
 	font-size: calc(12*4px);
 	font-weight: 800;
 	line-height: 1.25;
