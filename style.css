@@ -348,6 +348,7 @@ li.single_store_f4_title:not(:last-child)::after{
 	align-items: center;
 }
 .single_related_f3_main-box{
+	display: flex;
 }
 .single_related_f4_title-box{
 	width: 50%;
