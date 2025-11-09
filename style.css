@@ -48,6 +48,7 @@ main{
 	margin: 0 calc(4*4px) 0;
 }
 a{
+	border-radius: 4px;
 	text-decoration: none;
 	color: #06c;
 }
@@ -327,7 +328,6 @@ li.single_store_f4_title a{
     align-items: center;
     width: calc(100% - 16px);
     height: calc(100% - 16px);
-	border-radius: 4px;
 }
 li.single_store_f4_title:not(:last-child)::after{
 	position: absolute;
