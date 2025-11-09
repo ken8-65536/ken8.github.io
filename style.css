@@ -351,7 +351,7 @@ li.single_store_f4_title:not(:last-child)::after{
 	display: flex;
 }
 .single_related_f4_title-box{
-	width: 50%;
+	min-width: 50%;
 }
 .single_related_f4_article-box{
 	width: 100%;
