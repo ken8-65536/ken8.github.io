@@ -306,6 +306,7 @@ li.single_store_f4_title a{
     align-items: center;
     width: calc(100% - 8px);
     height: calc(100% - 16px);
+	border-redius: 4px;
 }
 li.single_store_f4_title:not(:last-child)::after{
 	position: absolute;
