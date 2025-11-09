@@ -391,4 +391,5 @@ img.single_related_f8_image{
 .single_related_f7_title-box{
 	padding: calc(2*4px);
 	line-height: 1.25;
+	font-size: calc(3*4px);
 }
