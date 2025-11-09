@@ -353,13 +353,13 @@ li.single_store_f4_title:not(:last-child)::after{
 	margin-bottom: calc(2*4px);
 }
 .single_related_f4_title-box{
-	min-width: 50%;
+	width: 50%;
 	font-size: calc(16*4px);
 	font-weight: 800;
 	color: #999;
 }
 .single_related_f4_article-box{
-	width: 100%;
+	width: 50%;
 }
 ul.single_related_f5_list{
 	display: flex;
