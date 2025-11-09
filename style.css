@@ -246,7 +246,6 @@ li.single_info_tag_f7_title{
 }
 /*---impression---*/
 .single_impression_f1{
-	width: 100%;
 }
 .single_impression_f2_text-box:not(:last-child){
 	margin-bottom: calc(16*4px);
@@ -338,4 +337,7 @@ li.single_store_f4_title:not(:last-child)::after{
 	width: 1px;
 	height: calc(100% - 16px);
 	background: #aaa;
+}
+/*---related---*/
+.single_related_f1{
 }
