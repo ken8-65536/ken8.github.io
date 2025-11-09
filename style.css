@@ -371,6 +371,9 @@ ul.single_related_f5_list{
 }
 li.single_related_f6_box{
 }
+.single_related_f4_article-box.over2 li.single_related_f6_box{
+	min-width: 50%;
+}
 a.single_related_f7_link{
 	display: block;
 	width: 100%;
