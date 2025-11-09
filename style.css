@@ -155,6 +155,9 @@ li.single_info_summary_f4_sub-box{
 li.single_info_summary_f4_sub-box.one-thirds{
 	min-width: 33.3%;
 }
+li.single_info_summary_f4_sub-box.one-half{
+	min-width: 50%;
+}
 li.single_info_summary_f4_sub-box.two-thirds{
 	min-width: 66.6%;
 }
