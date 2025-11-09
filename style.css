@@ -312,6 +312,22 @@ li.single_store_f4_title{
 	aspect-ratio: 16 / 9;
 	font-size: calc(5*4px);
 }
+li.single_store_f4_title.one-thirds{
+	min-width: 33.3%;
+	aspect-ratio: 16 / 9;
+}
+li.single_store_f4_title.one-half{
+	min-width: 50%;
+	aspect-ratio: 16 / 9;
+}
+li.single_store_f4_title.two-thirds{
+	min-width: 66.6%;
+	aspect-ratio: 32 / 9;
+}
+li.single_store_f4_title.three-thirds{
+	min-width: 100%;
+	aspect-ratio: 48 / 9;
+}
 li.single_store_f4_title a{
 	display: flex;
 	justify-content: center;
