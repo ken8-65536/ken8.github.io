@@ -352,7 +352,7 @@ li.single_store_f4_title:not(:last-child)::after{
 	display: flex;
 }
 .single_related_f4_title-box{
-	width: calc(50% - 8px);
+	min-width: calc(50% - 8px);
 	margin-right: calc(4*4px);
 	font-size: calc(12*4px);
 	font-weight: 800;
@@ -360,7 +360,10 @@ li.single_store_f4_title:not(:last-child)::after{
 	color: #999;
 }
 .single_related_f4_article-box{
-	width: calc(50% - 8px);
+	min-width: calc(50% - 8px);
+}
+.single_related_f4_article-box.over2{
+	min-width: 100%;
 }
 ul.single_related_f5_list{
 	display: flex;
