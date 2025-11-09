@@ -352,7 +352,7 @@ li.single_store_f4_title:not(:last-child)::after{
 }
 .single_related_f4_title-box{
 	min-width: 50%;
-	font-size: calc(8*4px);
+	font-size: calc(16*4px);
 	color: #555;
 }
 .single_related_f4_article-box{
