@@ -360,6 +360,10 @@ ul.single_related_f5_list{
 li.single_related_f6_box{
 }
 .single_related_f7_image-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 img.single_related_f8_image{
 	height: 100%;
