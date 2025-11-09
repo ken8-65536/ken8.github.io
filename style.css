@@ -350,17 +350,17 @@ li.single_store_f4_title:not(:last-child)::after{
 }
 .single_related_f3_main-box{
 	display: flex;
-	margin-bottom: calc(2*4px);
+	justify-content: space-between;
 }
 .single_related_f4_title-box{
-	width: 50%;
+	width: calc(50% - 8px);
 	font-size: calc(12*4px);
 	font-weight: 800;
 	line-height: 1.25;
 	color: #999;
 }
 .single_related_f4_article-box{
-	width: 50%;
+	width: calc(50% - 8px);
 }
 ul.single_related_f5_list{
 	display: flex;
