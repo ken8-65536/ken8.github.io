@@ -304,7 +304,7 @@ li.single_store_f4_title a{
 	display: flex;
 	justify-content: center;
     align-items: center;
-    width: calc(100% - 8px);
+    width: calc(100% - 16px);
     height: calc(100% - 16px);
 	border-radius: 4px;
 }
