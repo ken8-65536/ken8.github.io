@@ -384,6 +384,7 @@ a.single_related_f7_link{
 }
 img.single_related_f9_image{
 	width: 100%;
+	border-radius: 4px 4px 0 0;
 }
 .single_related_f8_title-box{
 	padding: calc(2*4px) calc(1*4px);
