@@ -357,6 +357,8 @@ li.single_store_f4_title:not(:last-child)::after{
 	min-width: 100%;
 }
 ul.single_related_f5_list{
+	display: flex;
+	width: 100%;
 }
 li.single_related_f6_box{
 }
