@@ -42,6 +42,7 @@ body{
 	font-family: 'Lato', 'Raleway', 'M PLUS Rounded 1c', sans-serif;
 	font-weight: 400;
 	font-size: calc(4*4px);
+	background: #fafafa;
 	color: #222;
 }
 main{
@@ -111,7 +112,7 @@ section.single-card:not(:last-child)::after{
 	width: 100%;
 	aspect-ratio: 1;
 	padding: calc(3*4px);
-	background: #fafafa;
+	background: #fff;
 	border: 1px solid #ddd;
 }
 img.single_info_img_f4_main-image{
@@ -133,7 +134,7 @@ li.single_info_img_f5_sub-image-box{
 	align-items: center;
 	min-width: calc(25% - 6px);
 	aspect-ratio: 1;
-	background: #fafafa;
+	background: #fff;
 	border: 1px solid #ddd;
 }
 li.single_info_img_f5_sub-image-box.over4{
