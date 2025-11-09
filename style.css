@@ -365,6 +365,8 @@ ul.single_related_f5_list{
 	width: 100%;
 }
 li.single_related_f6_box{
+	margin-bottom: calc(4*4px);
+	box-shadow: rgba(0,0,0,.35) 0 5px 15px;
 }
 .single_related_f7_image-box{
 	display: flex;
