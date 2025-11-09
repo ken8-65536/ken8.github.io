@@ -349,6 +349,7 @@ li.single_store_f4_title:not(:last-child)::after{
 }
 .single_related_f3_main-box{
 	display: flex;
+	margin-bottom: calc(2*4px);
 }
 .single_related_f4_title-box{
 	min-width: 50%;
@@ -370,11 +371,14 @@ li.single_related_f6_box{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	margin-bottom: calc(2*4px);
 }
 img.single_related_f8_image{
 	width: 100%;
 }
 .single_related_f7_title-box{
+	padding: 0 calc(1*4px);
+	line-height: 1.25;
 }
 .single_related_f3_title-box{
 	font-size: calc(3*4px);
