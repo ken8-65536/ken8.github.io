@@ -348,7 +348,7 @@ li.single_store_f4_title:not(:last-child)::after{
 	justify-content: center;
 	align-items: center;
 }
-.single_related_f3_main-box{
+.single_related_f3_main-box{/*---スクロール機能あり---*/
 	display: flex;
 }
 .single_related_f4_title-box{
@@ -372,7 +372,7 @@ ul.single_related_f5_list{
 li.single_related_f6_box{
 }
 .single_related_f4_article-box.over2 li.single_related_f6_box{
-	min-width: 50%;
+	min-width: calc(50% - 32px);
 	margin-right: calc(4*4px);
 }
 a.single_related_f7_link{
