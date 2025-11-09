@@ -348,11 +348,6 @@ li.single_store_f4_title:not(:last-child)::after{
 	justify-content: center;
 	align-items: center;
 }
-img.single_related_f3_icon{
-	position: absolute;
-	top: calc(100% - 48px);
-	left: 0;
-}
 .single_related_f3_main-box{
 	display: flex;
 	margin-bottom: calc(2*4px);
