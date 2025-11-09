@@ -350,7 +350,7 @@ li.single_store_f4_title:not(:last-child)::after{
 }
 img.single_related_f3_icon{
 	position: absolute;
-	top: calc(100% - 40px);
+	top: calc(100% - 48px);
 	left: 0;
 }
 .single_related_f3_main-box{
