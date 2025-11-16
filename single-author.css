@@ -260,6 +260,18 @@ ul.single_info_link_f3_list{
 li.single_info_link_f4_box{
 	width: calc(25% - 10px);
 }
+li.single_info_link_f4_box.one-fourths{
+	min-width: calc(25% - 10px);
+}
+li.single_info_link_f4_box.two-fourths{
+	min-width: calc(50% - 10px);
+}
+li.single_info_link_f4_box.three-fourths{
+	min-width: calc(75% - 10px);
+}
+li.single_info_link_f4_box.four-thirds{
+	min-width: 100%;
+}
 li.single_info_link_f4_box:not(:last-child){
 	margin-right: calc(2*4px);
 }
