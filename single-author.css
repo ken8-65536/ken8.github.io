@@ -371,6 +371,7 @@ li.single_info_tag_f7_title{
 .single_index_f3_title-box{
 }
 .single_index_f3_product-box{
+	display: flex;
 }
 .single_index_f4_product-image-box{
 	width: 50%;
