@@ -248,71 +248,6 @@ li.single_info_summary_f4_main-box .single_info_summary_f6_main-title{
 	color: #777;
 }
 /*---link---*/
-.single_info_link_f1{
-	margin-bottom: calc(6*4px);
-}
-.single_info_link_f2_main-box{
-}
-ul.single_info_link_f3_list{
-	display: flex;
-	margin-bottom: calc(3*4px);
-}
-li.single_info_link_f4_box{
-	position: relative;
-}
-li.single_info_link_f4_box:not(:last-child)::after{
-	position: absolute;
-	top: 4px;
-	left: 100%;
-	content: "";
-	width: 1px;
-	height: calc(100% - 8px);
-	background: #eee;
-}
-li.single_info_link_f4_box.one-fourths{
-	min-width: calc(25% - 10px);
-}
-li.single_info_link_f4_box.two-fourths{
-	min-width: calc(50% - 10px);
-}
-li.single_info_link_f4_box.three-fourths{
-	min-width: calc(75% - 10px);
-}
-li.single_info_link_f4_box.four-thirds{
-	min-width: 100%;
-}
-a.single_info_link_f5_link{
-}
-.single_info_link_f6_icon{
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	width: 100%;
-	margin-bottom: calc(1*4px);
-	padding: 0 calc(2*4px);
-}
-img.single_info_link_f7_icon-image{
-	height: calc(6*4px);
-	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
-	pointer-events: none;
-}
-.single_info_link_f6_sub-title{
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	padding: 0 calc(2*4px);
-    font-size: calc(3*4px);
-    color: #999;
-}
-.single_info_link_f2_sub-box{
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.single_info_link_f3_title{
-	font-size: calc(3*4px);
-    color: #777;
-}
 /*---tag---*/
 .single_info_tag_f1{
 }
@@ -364,42 +299,7 @@ li.single_info_tag_f7_title{
 	color: #777;
 }
 /*---index---*/
-.single_index_f1{
-}
-.single_index_f2_main-box{
-}
-.single_index_f3_title-box{
-}
-.single_index_f3_product-box{
-}
-.single_index_f4_product-image-box{
-}
-.single_index_f5_image-box{
-}
-img.single_index_f6_image{
-}
-.single_index_f4_product-info-box{
-}
-.single_index_f5_product-summary-box{
-}
-.single_index_f6_product-title-box{
-}
-.single_index_f6_product-link-box{
-}
-.single_index_f5_product-store-box{
-}
-ul.single_index_f6_product-store-list{
-}
-li.single_index_f7_product-store-title{
-}
-li.single_index_f7_product-store-title.one-thirds{
-}
-li.single_index_f7_product-store-title.two-thirds{
-}
-li.single_index_f7_product-store-title.three-thirds{
-}
-li.single_index_f7_product-store-title a{
-}
+
 /*---impression---*/
 .single_impression_f1{
 }
