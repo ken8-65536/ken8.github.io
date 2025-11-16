@@ -274,7 +274,7 @@ li.single_info_link_f4_box:not(:last-child){
 	margin-bottom: calc(1*4px);
 }
 img.single_info_link_f7_icon-image{
-	width: 50%;
+	width: calc(6*4px);
 	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
 }
 .single_info_link_f6_sub-title{
