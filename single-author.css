@@ -261,6 +261,9 @@ li.single_info_link_f4_box{
 	width: calc(25% - 10px);
 }
 .single_info_link_f5_box{
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	width: 100%;
 }
 .single_info_link_f6_icon{
