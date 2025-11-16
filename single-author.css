@@ -247,6 +247,38 @@ li.single_info_summary_f4_main-box .single_info_summary_f6_main-title{
 	font-size: calc(3*4px);
 	color: #777;
 }
+/*---link---*/
+.single_info_link_f1{
+}
+.single_info_link_f2_main-box{
+	margin-bottom: calc(1*4px);
+}
+ul.single_info_link_f3_list{
+	display: flex;
+}
+li.single_info_link_f4_box{
+	min-width: calc(33.3% - 3.3px);
+}
+.single_info_link_f5_box{
+}
+.single_info_link_f6_icon{
+	margin-bottom: calc(3*4px);
+}
+img.single_info_link_f7_icon-image{
+}
+.single_info_link_f6_sub-title{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(3*4px);
+    color: #555;
+}
+.single_info_link_f2_sub-box{
+}
+.single_info_link_f3_title{
+	font-size: calc(3*4px);
+    color: #777;
+}
 /*---tag---*/
 .single_info_tag_f1{
 }
