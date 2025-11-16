@@ -257,9 +257,6 @@ li.single_info_summary_f4_main-box .single_info_summary_f6_main-title{
 ul.single_info_link_f3_list{
 	display: flex;
 }
-li.single_info_link_f4_box{
-	width: calc(25% - 10px);
-}
 li.single_info_link_f4_box.one-fourths{
 	min-width: calc(25% - 10px);
 }
