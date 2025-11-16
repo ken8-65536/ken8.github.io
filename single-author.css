@@ -141,6 +141,8 @@ li.single_f5_switch-author:not(:last-child)::after {
 	margin-bottom: calc(4*4px);
 }
 .single_info_img_f3_main-box{
+	position: relative;
+	overflow: hidden; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -149,9 +151,15 @@ li.single_f5_switch-author:not(:last-child)::after {
 	padding: calc(3*4px);
 	background: #fff;
 	border: 1px solid #ddd;
+	border-radius: 50%;
 }
 img.single_info_img_f4_main-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
 	height: 100%;
+	object-fit: cover; 
 }
 .single_info_img_f2_sub-box{
 	width: 100%;
