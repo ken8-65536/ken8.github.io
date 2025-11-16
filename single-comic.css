@@ -118,6 +118,9 @@ li.single_f5_switch-author{
 li.single_f5_switch-author:not(:last-child){
 	font-weight: 800;
 }
+li.single_f5_switch-author:last-child{
+	font-weight: 100;
+}
 li.single_f5_switch-author:not(:last-child)::after {
     position: absolute;
     top: 2px;
