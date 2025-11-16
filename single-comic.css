@@ -113,7 +113,7 @@ li.single_f5_switch-author{
 	justify-content: center;
 	align-items: center;
     min-width: calc(33.3% - 3.3px);
-	color: #777;
+	color: #999;
 }
 li.single_f5_switch-author:not(:last-child){
 	font-weight: 800;
