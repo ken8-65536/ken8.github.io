@@ -363,6 +363,43 @@ li.single_info_tag_f7_title{
 	font-size: calc(3*4px);
 	color: #777;
 }
+/*---index---*/
+.single_index_f1{
+}
+.single_index_f2_main-box{
+}
+.single_index_f3_title-box{
+}
+.single_index_f3_product-box{
+}
+.single_index_f4_product-image-box{
+}
+.single_index_f5_image-box{
+}
+img.single_index_f6_image{
+}
+.single_index_f4_product-info-box{
+}
+.single_index_f5_product-summary-box{
+}
+.single_index_f6_product-title-box{
+}
+.single_index_f6_product-link-box{
+}
+.single_index_f5_product-store-box{
+}
+ul.single_index_f6_product-store-list{
+}
+li.single_index_f7_product-store-title{
+}
+li.single_index_f7_product-store-title.one-thirds{
+}
+li.single_index_f7_product-store-title.two-thirds{
+}
+li.single_index_f7_product-store-title.three-thirds{
+}
+li.single_index_f7_product-store-title a{
+}
 /*---impression---*/
 .single_impression_f1{
 }
