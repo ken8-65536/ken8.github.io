@@ -272,8 +272,7 @@ li.single_info_link_f4_box.four-thirds{
 li.single_info_link_f4_box:not(:last-child){
 	margin-right: calc(2*4px);
 }
-.single_info_link_f5_box{
-	width: 100%;
+a.single_info_link_f5_link{
 }
 .single_info_link_f6_icon{
 	display: flex;
