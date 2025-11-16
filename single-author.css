@@ -373,12 +373,15 @@ li.single_info_tag_f7_title{
 .single_index_f3_product-box{
 }
 .single_index_f4_product-image-box{
+	width: 50%;
 }
 .single_index_f5_image-box{
 }
 img.single_index_f6_image{
+	width: 100%;
 }
 .single_index_f4_product-info-box{
+	width: 50%;
 }
 .single_index_f5_product-summary-box{
 }
