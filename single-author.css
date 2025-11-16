@@ -274,6 +274,9 @@ img.single_info_link_f7_icon-image{
     color: #555;
 }
 .single_info_link_f2_sub-box{
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .single_info_link_f3_title{
 	font-size: calc(3*4px);
