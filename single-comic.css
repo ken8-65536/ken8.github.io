@@ -95,6 +95,34 @@ section.single-card:not(:last-child)::after{
 	align-items: center;
 	font-size: calc(6*4px);
 }
+.single_f3_title:not(:last-child){
+	margin-bottom: calc(4*4px);
+}
+/*---見出しの切り替えBOX---*/
+.single_f3_switch{
+}
+ul.single_f4_switch-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+}
+li.single_f5_switch-author{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    min-width: calc(33.3% - 3.3px);
+}
+li.single_f5_switch-author:not(:last-child)::after {
+    position: absolute;
+    top: 2px;
+    left: 100%;
+    content: "";
+    width: 1px;
+    height: calc(100% - 4px);
+    background: #eee;
+}
 /*---info---*/
 /*---image---*/
 .single_info_img_f1{
