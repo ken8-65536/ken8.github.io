@@ -252,10 +252,10 @@ li.single_info_summary_f4_main-box .single_info_summary_f6_main-title{
 	margin-bottom: calc(6*4px);
 }
 .single_info_link_f2_main-box{
-	margin-bottom: calc(3*4px);
 }
 ul.single_info_link_f3_list{
 	display: flex;
+	margin-bottom: calc(3*4px);
 }
 li.single_info_link_f4_box.one-fourths{
 	min-width: calc(25% - 10px);
