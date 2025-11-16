@@ -370,6 +370,12 @@ li.single_related_f5_box.over2{
 li.single_related_f5_box:not(:last-child){
 	margin-right: calc(4*4px);
 }
+li.single_related_f5_box:last-child{
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: calc(2*4px);/*---.single_related_f7_title-boxのpaddingと連動---*/
+}
 .single_related_f6_title-box{
 	font-size: calc(10*4px);
 	font-weight: 800;
