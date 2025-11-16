@@ -275,7 +275,7 @@ li.single_info_link_f4_box:not(:last-child){
 }
 img.single_info_link_f7_icon-image{
 	width: 50%;
-	filter: invert(74%) sepia(1%) saturate(0%) hue-rotate(85deg) brightness(83%) contrast(84%);
+	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
 }
 .single_info_link_f6_sub-title{
 	display: flex;
