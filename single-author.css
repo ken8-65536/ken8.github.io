@@ -95,6 +95,41 @@ section.single-card:not(:last-child)::after{
 	align-items: center;
 	font-size: calc(6*4px);
 }
+.single_f3_title:not(:last-child){
+	margin-bottom: calc(4*4px);
+}
+/*---見出しの切り替えBOX---*/
+.single_f3_switch{
+}
+ul.single_f4_switch-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+}
+li.single_f5_switch-author{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    min-width: calc(33.3% - 3.3px);
+	color: #999;
+}
+li.single_f5_switch-author:not(:last-child){
+	font-weight: 800;
+}
+li.single_f5_switch-author:last-child{
+	font-weight: 100;
+}
+li.single_f5_switch-author:not(:last-child)::after {
+    position: absolute;
+    top: 2px;
+    left: 100%;
+    content: "";
+    width: 1px;
+    height: calc(100% - 4px);
+    background: #aaa;
+}
 /*---info---*/
 /*---image---*/
 .single_info_img_f1{
@@ -188,8 +223,11 @@ li.single_info_summary_f4_sub-box.three-thirds{
 }
 .single_info_summary_f6_main-title{
 	margin-bottom: calc(2*4px);
-	font-size: calc(6*4px);
+	font-size: calc(5*4px);
 	line-height: 1.25;
+}
+li.single_info_summary_f4_main-box .single_info_summary_f6_main-title{
+	font-size: calc(6*4px);
 }
 .single_info_summary_f6_sub-title{
 	font-size: calc(3*4px);
@@ -366,6 +404,12 @@ li.single_related_f5_box.over2{
 }
 li.single_related_f5_box:not(:last-child){
 	margin-right: calc(4*4px);
+}
+li.single_related_f5_box:last-child{
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: calc(2*4px);/*---.single_related_f7_title-boxのpaddingと連動---*/
 }
 .single_related_f6_title-box{
 	font-size: calc(10*4px);
