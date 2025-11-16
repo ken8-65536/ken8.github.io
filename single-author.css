@@ -505,6 +505,7 @@ li.single_store_f4_title:not(:last-child)::after{
 }
 .single_related_f3_main-box{/*---スクロール機能あり---*/
 	display: flex;
+	width: 100%;
 }
 .single_related_f3_main-box:not(:last-child){
 	margin-bottom: calc(4*4px);
