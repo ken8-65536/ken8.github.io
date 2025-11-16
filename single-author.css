@@ -257,6 +257,18 @@ ul.single_info_link_f3_list{
 	display: flex;
 	margin-bottom: calc(3*4px);
 }
+li.single_info_link_f4_box{
+	position: relative;
+}
+li.single_info_link_f4_box:not(:last-child)::after{
+	position: absolute;
+	top: 4px;
+	left: 100%;
+	content: "";
+	width: 1px;
+	height: calc(100% - 8px);
+	background: #eee;
+}
 li.single_info_link_f4_box.one-fourths{
 	min-width: calc(25% - 10px);
 }
