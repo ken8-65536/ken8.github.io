@@ -287,9 +287,9 @@ a.single_info_link_f5_link{
 	display: flex;
     justify-content: center;
     align-items: center;
-	padding: 0 calc(2*4px);
 	width: 100%;
 	margin-bottom: calc(1*4px);
+	padding: 0 calc(2*4px);
 }
 img.single_info_link_f7_icon-image{
 	height: calc(6*4px);
