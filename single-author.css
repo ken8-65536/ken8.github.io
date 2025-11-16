@@ -268,7 +268,7 @@ li.single_info_link_f4_box{
     justify-content: center;
     align-items: center;
 	width: 100%;
-	margin-bottom: calc(3*4px);
+	margin-bottom: calc(1*4px);
 	background: #999;
 }
 img.single_info_link_f7_icon-image{
