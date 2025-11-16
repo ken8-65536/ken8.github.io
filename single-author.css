@@ -272,7 +272,6 @@ li.single_info_link_f4_box:not(:last-child){
     align-items: center;
 	width: 100%;
 	margin-bottom: calc(1*4px);
-	background: #999;
 }
 img.single_info_link_f7_icon-image{
 	width: 50%;
