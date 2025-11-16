@@ -281,9 +281,6 @@ li.single_info_link_f4_box.three-fourths{
 li.single_info_link_f4_box.four-thirds{
 	min-width: 100%;
 }
-li.single_info_link_f4_box:not(:last-child){
-	margin-right: calc(2*4px);
-}
 a.single_info_link_f5_link{
 }
 .single_info_link_f6_icon{
@@ -302,6 +299,7 @@ img.single_info_link_f7_icon-image{
 	display: flex;
     justify-content: center;
     align-items: center;
+	padding: 0 calc(2*4px);
     font-size: calc(3*4px);
     color: #999;
 }
