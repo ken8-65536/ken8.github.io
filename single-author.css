@@ -276,14 +276,14 @@ li.single_info_link_f4_box:not(:last-child){
 }
 img.single_info_link_f7_icon-image{
 	width: 50%;
-	background: #999;
+	filter: invert(74%) sepia(1%) saturate(0%) hue-rotate(85deg) brightness(83%) contrast(84%);
 }
 .single_info_link_f6_sub-title{
 	display: flex;
     justify-content: center;
     align-items: center;
     font-size: calc(3*4px);
-    color: #555;
+    color: #999;
 }
 .single_info_link_f2_sub-box{
 	display: flex;
