@@ -269,6 +269,7 @@ li.single_info_link_f4_box{
 .single_info_link_f6_icon{
 	width: 80%;
 	margin-bottom: calc(3*4px);
+	background: #999;
 }
 img.single_info_link_f7_icon-image{
 	width: 100%;
