@@ -134,7 +134,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 /*---image---*/
 .single_info_img_f1{
 	width: 100%;
-	margin-bottom: calc(8*4px);
+	margin-bottom: calc(6*4px);
 }
 .single_info_img_f2_main-box{
 	width: 100%;
