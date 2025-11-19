@@ -374,6 +374,7 @@ li.single_info_tag_f7_title{
 	color: #999;
 }
 .single_index_f2_main-box{
+	padding: 0 calc(8*4px);
 }
 .single_index_f3_product-title-box{
 	display: flex;
@@ -396,7 +397,6 @@ a.single_index_f5_single-link{
 .single_index_f6_single-link-title{
 }
 .single_index_f3_product-box{
-	padding: 0 calc(8*4px);
 }
 .single_index_f4_product-image-box{
 	width: 100%;
