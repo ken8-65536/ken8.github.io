@@ -317,7 +317,7 @@ img.single_info_link_f7_icon-image{
 .single_info_tag_f1{
 }
 .single_info_tag_f2_main-box{/*---スクロール機能あり---*/
-	margin-bottom: calc(1*4px);
+	margin-bottom: calc(2*4px);
 }
 ul.single_info_tag_f3_list{
 	display: flex;
@@ -383,6 +383,7 @@ img.single_index_f6_image{
 	width: 100%;
 }
 .single_index_f5_product-store-box{
+	margin-bottom: calc(2*4px);
 }
 ul.single_index_f6_product-store-list{
 	position: relative;
@@ -438,6 +439,15 @@ li.single_index_f7_product-store-title:not(:last-child)::after{
 	width: 1px;
 	height: calc(100% - 8px);
 	background: #aaa;
+}
+.single_index_f5_product-sub-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.single_index_f6_product-sub-title{
+	font-size: calc(3*4px);
+	color: #777;
 }
 /*---impression---*/
 .single_impression_f1{
