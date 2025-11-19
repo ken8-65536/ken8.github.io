@@ -379,7 +379,7 @@ li.single_info_tag_f7_title{
 	padding: 0 calc(8*4px);
 	padding-bottom: calc(8*4px);
 }
-.single_index_f2_main-box::after{
+.single_index_f2_main-box:not(:last-child)::after{
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -392,7 +392,7 @@ li.single_info_tag_f7_title{
 	position: relative;
 	padding-bottom: calc(8*4px);
 }
-.single_index_f3_product-box::after{
+.single_index_f3_product-box:not(:last-child)::after{
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -448,7 +448,7 @@ ul.single_index_f6_product-store-list{
 	display: flex;
 	width: 100%;
 }
-ul.single_index_f6_product-store-list:not(:last-child)::after {
+ul.single_index_f6_product-store-list:not(:last-child)::after{
 	position: absolute;
 	top: 100%;
 	left: 0;
