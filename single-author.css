@@ -417,6 +417,9 @@ li.single_info_tag_f7_title{
 	font-size: calc(3*4px);
 }
 a.single_index_f6_single-link{
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .single_index_f7_single-link-title{
 }
