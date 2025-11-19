@@ -411,7 +411,7 @@ li.single_info_tag_f7_title{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	margin-bottom: calc(4*4px);
 }
 .single_index_f5_product-title{
@@ -424,8 +424,6 @@ li.single_info_tag_f7_title{
 }
 a.single_index_f6_single-link{
 	display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .single_index_f7_single-link-title{
 	margin-right: calc(1*4px);
