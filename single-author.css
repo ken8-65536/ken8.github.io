@@ -142,7 +142,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 .single_info_img_f3_main-box{
 	width: 100%;
-	padding: calc(6*4px);
+	padding: calc(8*4px);
     border-radius: 50%;
     border: 1px solid #ddd;
 	background: #fff;
@@ -424,7 +424,7 @@ a.single_index_f6_single-link{
 	align-items: center;
 	width: 100%;
 	aspect-ratio: 1;
-	padding: calc(3*4px);
+	padding: calc(4*4px);
 	background: #fff;
 	border: 1px solid #ddd;
 	margin-bottom: calc(4*4px);
