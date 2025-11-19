@@ -146,7 +146,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 	align-items: center;
 	width: 100%;
 	aspect-ratio: 1;
-	padding: calc(3*4px);
+	padding: calc(4*4px);
 	background: #fff;
 	border: 1px solid #ddd;
 }
