@@ -377,7 +377,7 @@ li.single_info_tag_f7_title{
 	position: relative;
 	padding: 0 calc(8*4px);
 }
-.single_index_f2_main-box:not(:last-child)::after {
+.single_index_f2_main-box::after {
 	position: absolute;
 	top: 100%;
 	left: 0;
