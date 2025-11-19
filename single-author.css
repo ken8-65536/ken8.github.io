@@ -377,6 +377,8 @@ li.single_info_tag_f7_title{
 .single_index_f2_main-box{
 	position: relative;
 	padding: 0 calc(8*4px);
+}
+.single_index_f2_main-box:not(:last-child){
 	padding-bottom: calc(8*4px);
 }
 .single_index_f2_main-box:not(:last-child)::after{
@@ -390,6 +392,8 @@ li.single_info_tag_f7_title{
 }
 .single_index_f3_product-box{
 	position: relative;
+}
+.single_index_f3_product-box:not(:last-child){
 	padding-bottom: calc(8*4px);
 }
 .single_index_f3_product-box:not(:last-child)::after{
