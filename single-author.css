@@ -378,6 +378,7 @@ li.single_info_tag_f7_title{
 	flex-direction: column;
     justify-content: center;
     align-items: center;
+	margin-bottom: calc(4*4px);
 }
 .single_index_f3_product-title{
 	margin-bottom: calc(2*4px);
