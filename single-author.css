@@ -401,6 +401,9 @@ li.single_info_tag_f7_title{
 	background: #eee;
 }
 .single_index_f4_product-title-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-bottom: calc(4*4px);
 }
 .single_index_f5_product-title{
@@ -409,9 +412,6 @@ li.single_info_tag_f7_title{
 	line-height: 1.25;
 }
 .single_index_f5_single-link-box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	font-size: calc(3*4px);
 }
 a.single_index_f6_single-link{
