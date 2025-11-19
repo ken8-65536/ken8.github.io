@@ -419,13 +419,20 @@ a.single_index_f6_single-link{
 .single_index_f7_single-link-title{
 }
 .single_index_f4_product-image-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
+	aspect-ratio: 1;
+	padding: calc(3*4px);
+	background: #fff;
+	border: 1px solid #ddd;
 	margin-bottom: calc(4*4px);
 }
 .single_index_f5_image-box{
 }
 img.single_index_f6_image{
-	width: 100%;
+	height: 100%;
 }
 .single_index_f4_product-info-box{
 	width: 100%;
