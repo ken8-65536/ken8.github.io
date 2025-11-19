@@ -255,7 +255,7 @@ li.single_info_summary_f4_main-box .single_info_summary_f6_main-title{
 }
 ul.single_info_link_f3_list{
 	display: flex;
-	margin-bottom: calc(3*4px);
+	margin-bottom: calc(2*4px);
 }
 li.single_info_link_f4_box{
 	position: relative;
