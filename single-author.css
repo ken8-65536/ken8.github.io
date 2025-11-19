@@ -430,6 +430,7 @@ a.single_index_f6_single-link{
 	margin-bottom: calc(4*4px);
 }
 .single_index_f5_image-box{
+	height: 100%;
 }
 img.single_index_f6_image{
 	height: 100%;
