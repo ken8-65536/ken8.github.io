@@ -374,7 +374,17 @@ li.single_info_tag_f7_title{
 	color: #999;
 }
 .single_index_f2_main-box{
+	position: relative;
 	padding: 0 calc(8*4px);
+}
+.single_index_f2_main-box:not(:last-child)::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #aaa;
 }
 .single_index_f3_product-title-box{
 	display: flex;
