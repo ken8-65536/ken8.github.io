@@ -125,7 +125,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 .single_f6_switch-button-active{
 	padding: calc(1*4px) calc(4*4px);/*---font-sizeと連動---*/
-    border-radius: calc(4*4px);
+    border-radius: calc(6*4px);
 	background: #aaa;
     color: #fff;
 }
