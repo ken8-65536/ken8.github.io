@@ -535,7 +535,7 @@ li.single_index_f7_product-store-title:not(:last-child)::after{
 	display: flex;
 	justify-content: center;
 }
-.single_impression_f4_title{
+.single_impression_f4_number{
 	min-width: calc(5*4px);
 	margin-right: calc(3*4px);
 	font-size: calc(5*4px);
