@@ -425,7 +425,6 @@ a.single_index_f6_single-link{
 	display: flex;
 }
 .single_index_f7_single-link-title{
-	margin-right: calc(1*4px);
 }
 .single_index_f7_single-link-icon{
 	width: calc(3*4px);
