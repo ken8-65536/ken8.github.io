@@ -503,11 +503,11 @@ li.single_index_f7_product-store-title a{
 }
 li.single_index_f7_product-store-title:not(:last-child)::after{
 	position: absolute;
-	top: 4px;
+	top: 8px;
 	left: 100%;
 	content: "";
 	width: 1px;
-	height: calc(100% - 8px);
+	height: calc(100% - 16px);
 	background: #aaa;
 }
 .single_index_f5_product-sub-box{
