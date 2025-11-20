@@ -260,6 +260,7 @@ ul.single_info_link_f3_list{
 }
 li.single_info_link_f4_box{
 	position: relative;
+	padding: 0 calc(2*4px);
 }
 li.single_info_link_f4_box:not(:last-child)::after{
 	position: absolute;
@@ -290,7 +291,6 @@ a.single_info_link_f5_link{
     align-items: center;
 	width: 100%;
 	margin-bottom: calc(1*4px);
-	padding: 0 calc(2*4px);
 }
 img.single_info_link_f7_icon-image{
 	height: calc(6*4px);
@@ -301,7 +301,6 @@ img.single_info_link_f7_icon-image{
 	display: flex;
     justify-content: center;
     align-items: center;
-	padding: 0 calc(2*4px);
     font-size: calc(3*4px);
     color: #999;
 }
