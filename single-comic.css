@@ -452,7 +452,7 @@ li.single_related_f5_box:last-child{
 	line-height: 1.25;
 	color: #999;
 }
-li.single_related_f5_box:last-child .single_related_f6_title-box{
+li.single_related_f5_box:last-child .single_related_f6_title-box.over4{
 	width: calc(30*4px);/*---上記font-sizeと連動、3文字分---*/
 }
 a.single_related_f6_link{
