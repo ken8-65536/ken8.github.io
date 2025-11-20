@@ -554,6 +554,29 @@ li.single_index_f7_product-store-title:not(:last-child)::after{
 .single_impression_f5_text p:not(:last-child){
 	margin-bottom: calc(4*4px);
 }
+.single_impression_f3_nest-box{
+	display: flex;
+	justify-content: center;
+}
+.single_impression_f4_nest-number{
+	min-width: calc(5*4px);
+	margin-right: calc(3*4px);
+	font-size: calc(5*4px);
+}
+.single_impression_f4_nest-box{
+}
+.single_impression_f5_nest-title{
+	margin-bottom: calc(5*4px);
+	font-size: calc(5*4px);
+}
+.single_impression_f5_nest-text{
+}
+.single_impression_f5_nest-text p{
+	line-height: 1.25;
+}
+.single_impression_f5_nest-text p:not(:last-child){
+	margin-bottom: calc(4*4px);
+}
 /*---store---*/
 .single_store_f1{
 }
