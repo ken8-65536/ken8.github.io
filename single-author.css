@@ -113,13 +113,6 @@ li.single_f5_switch-author{
 	justify-content: center;
 	align-items: center;
     min-width: calc(33.3% - 3.3px);
-	color: #999;
-}
-li.single_f5_switch-author:not(:last-child){
-	font-weight: 800;
-}
-li.single_f5_switch-author:last-child{
-	font-weight: 100;
 }
 li.single_f5_switch-author:not(:last-child)::after {
     position: absolute;
@@ -129,6 +122,16 @@ li.single_f5_switch-author:not(:last-child)::after {
     width: 1px;
     height: calc(100% - 4px);
     background: #aaa;
+}
+.single_f6_switch-button-active{
+	padding: calc(1*4px) calc(4*4px);/*---font-sizeと連動---*/
+    border-radius: calc(4*4px);
+	background: #aaa;
+    color: #fff;
+}
+.single_f6_switch-button{
+	font-weight: 100;
+	color: #999;
 }
 /*---info---*/
 /*---image---*/
