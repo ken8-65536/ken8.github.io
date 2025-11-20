@@ -302,7 +302,7 @@ li.single_info_tag_f7_title{
 	justify-content: center;
 }
 .single_impression_f3_box:not(:last-child){
-	margin-bottom: calc(8*4px);
+	margin-bottom: calc(12*4px);
 }
 .single_impression_f4_number{
 	min-width: calc(5*4px);
@@ -328,7 +328,7 @@ li.single_info_tag_f7_title{
 	justify-content: center;
 }
 .single_impression_f3_nest-box:not(:last-child){
-	margin-bottom: calc(8*4px);
+	margin-bottom: calc(12*4px);
 }
 .single_impression_f4_nest-number{
 	min-width: calc(10*4px);
