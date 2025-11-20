@@ -526,7 +526,7 @@ li.single_index_f7_product-store-title:not(:last-child)::after{
 .single_impression_f1{
 }
 .single_impression_f2_text-box:not(:last-child){
-	margin-bottom: calc(16*4px);
+	margin-bottom: calc(12*4px);
 }
 .single_impression_f2_text-box:last-child{
 	margin-bottom: calc(8*4px);
