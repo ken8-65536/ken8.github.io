@@ -47,7 +47,22 @@ li{
 	list-style: none !important;
 }
 /* -------------------------
-	共通(ここが更新されたら、他のcssも更新)
+	目次
+	1.グローバル共通
+		1-1.定義
+		1-2.機能
+		1-3.block
+	2.single共通
+
+	3.service.html
+
+	4.footer
+
+------------------------- */
+/* -------------------------
+	1.グローバル共通(ここが更新されたら、他のcssも更新)
+------------------------- */
+/*	1-1.定義
 ------------------------- */
 :root{
 	--result-04: calc(1*4px);
@@ -64,32 +79,39 @@ li{
 	--result-56: calc(14*4px);
 	--result-60: calc(15*4px);
 	--result-64: calc(16*4px);
-	--color-main: #333;
+	--color-3: #333;
+	--color-6: #666;
+	--color-9: #999;
+	--color-b: #bbb;
+	--color-d: #ddd;
+	--color-fa: #fafafa;
+	--color-f: #fff;
 	--color-link: #06c;
-	--bg-main: #fafafa;
-	--bg-border: #ddd;
-	--f-weight-normal: 400;
+	--color-icon-svg: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
 	--f-weight-thin: 100;
+	--f-weight-normal: 400;
 	--f-weight-bold: 800;
 }
 body{
 	width: 100%;
 	overflow-x: hidden;
 	font-family: 'Lato', 'Raleway', 'M PLUS Rounded 1c', sans-serif;
-	font-weight: 400;
-	font-size: calc(4*4px);
-	background: #fafafa;
-	color: #333;
+	font-weight: var(--f-weight-normal);
+	font-size: var(--result-16);
+	background: var(--color-fa);
+	color: var(--color-3);
 }
 main{
-	margin: 0 calc(4*4px) 0;
+	margin: 0 var(--result-16) 0;
 }
 a{
-	border-radius: 4px;
+	border-radius: var(--result-04);
 	text-decoration: none;
-	color: #06c;
+	color: var(--color-link);
 }
-/*---自作スライダー---*/
+/*	1-2.機能
+------------------------- */
+/*--横スクロールスライダー--*/
 .func_slider-scroll{
 	overflow-x: auto;
 	scrollbar-width: none;
@@ -98,9 +120,11 @@ a{
 .func_slider-scroll::-webkit-scrollbar{
 	display: none;
 }
-/* シングル
+/*	1-3.block
 ------------------------- */
-/*---共通---*/
+/*	2.single共通
+------------------------- */
+/*--共通--*/
 article.single-article{
 	width: 100%;
 }
@@ -190,7 +214,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 .single_info_img_f4_main-box{
 	position: relative;
-	overflow: hidden; 
+	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -206,7 +230,7 @@ img.single_info_img_f5_main-image{
 	left: 0;
 	width: auto;
 	height: 100%;
-	object-fit: cover; 
+	object-fit: cover;
 }
 .single_info_img_f2_sub-box{
 	width: 100%;
