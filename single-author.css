@@ -1,41 +1,77 @@
 @charset "UTF-8";
-/* リセット
+/* -------------------------
+	リセット
 ------------------------- */
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+ol,ul,li,dl{
+	list-style-position: inside;
+}
+button,input,select,textarea{
 	margin:0;
-	padding:0;
 }
-h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
-ol,ul,li,dl{list-style-position: inside;}
-button,input,select,textarea{margin:0;}
 html{
-	box-sizing:border-box;
-	line-height:1;
-	font-size: 62.5%; /*  50 56.25 62.5 68.75 75*/
+	box-sizing: border-box;
+	line-height: 1;
+	font-size: 62.5%;
 }
-*,*:before,*:after{box-sizing:inherit;}
-iframe{border:0;}
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+iframe{
+	border: 0;
+}
 table{
-	border-collapse:collapse;
-	border-spacing:0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 td,th{
-	padding:0;
-	text-align:left;
+	padding: 0;
+	text-align: left;
 }
 hr{
 	height: 0;
 	border: 0;
 }
-/*---リストマーカー削除---*/
+/*--リストマーカー削除--*/
 ul li:before{
 	display: none !important;
 }
 li{
 	list-style: none !important;
 }
-/* 共通
+/* -------------------------
+	共通(ここが更新されたら、他のcssも更新)
 ------------------------- */
+:root{
+	--result-04: calc(1*4px);
+	--result-08: calc(2*4px);
+	--result-12: calc(3*4px);
+	--result-16: calc(4*4px);
+	--result-20: calc(5*4px);
+	--result-24: calc(6*4px);
+	--result-28: calc(7*4px);
+	--result-32: calc(8*4px);
+	--result-36: calc(9*4px);
+	--result-40: calc(10*4px);
+	--result-48: calc(12*4px);
+	--result-56: calc(14*4px);
+	--result-60: calc(15*4px);
+	--result-64: calc(16*4px);
+	--color-main: #333;
+	--color-link: #06c;
+	--bg-main: #fafafa;
+	--bg-border: #ddd;
+	--f-weight-normal: 400;
+	--f-weight-thin: 100;
+	--f-weight-bold: 800;
+}
 body{
 	width: 100%;
 	overflow-x: hidden;
