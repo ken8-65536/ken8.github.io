@@ -50,13 +50,15 @@ li{
 	目次
 	1.グローバル共通
 		1-1.定義
-		1-2.機能
+		1-2.機能(func)
 		1-3.block
 	2.single共通
-
-	3.service.html
-
-	4.footer
+		2-1.共通
+		2-2.インフォメーション(info)
+		2-3.ストア(store)
+		2-4.年表(index)
+		2-5.感想(impression)
+		2-6.関連(related)
 
 ------------------------- */
 /* -------------------------
@@ -109,7 +111,7 @@ a{
 	text-decoration: none;
 	color: var(--color-link);
 }
-/*	1-2.機能
+/*	1-2.機能(func)
 ------------------------- */
 /*--横スクロールスライダー--*/
 .func__sliderScroll{
@@ -138,6 +140,16 @@ a{
 	justify-content: center;
 	align-items: center;
 	font-size: calc(6*4px);
+}
+/*--ボックス底にある要素を説明する小さい文章--*/
+.bottomSmallTitle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bottomSmallTitle__text{
+	font-size: calc(3*4px);
+	color: #777;
 }
 /* -------------------------
 	2.single共通
@@ -198,7 +210,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 	color: #999;
 	font-weight: 100;
 }
-/*	2-2.インフォメーション
+/*	2-2.インフォメーション(info)
 ------------------------- */
 /*--image--*/
 .infoImg{
@@ -341,29 +353,24 @@ li.single_f5_switch-author:not(:last-child)::after {
     color: #999;
 }
 .infoLinks__bottomTitleBox{
-	display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .infoLinks__bottomTitleText{
-	font-size: calc(3*4px);
-    color: #777;
 }
-/*---tag---*/
-.single_info_tag_f1{
+/*--tag--*/
+.infoTag{
 }
-.single_info_tag_f2_main-box{/*---スクロール機能あり---*/
+.infoTag__top{/*---スクロール機能あり---*/
 	margin-bottom: calc(2*4px);
 }
-ul.single_info_tag_f3_list{
+.infoTag__50onList{
 	display: flex;
 	width: 100%;
 }
-li.single_info_tag_f4_box{
+.infoTag__50onListElement{
 	position: relative;
 	min-width: calc(33.3% - 3.3px);
 }
-li.single_info_tag_f4_box:not(:last-child)::after{
+.infoTag__50onListElement:not(:last-child)::after{
 	position: absolute;
 	top: 4px;
 	left: 100%;
@@ -372,7 +379,7 @@ li.single_info_tag_f4_box:not(:last-child)::after{
 	height: calc(100% - 8px);
 	background: #eee;
 }
-.single_info_tag_f5_title{
+.infoTag__50onListTitle{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -380,26 +387,87 @@ li.single_info_tag_f4_box:not(:last-child)::after{
 	font-size: calc(5*4px);
 	color: #555;
 }
-.single_info_tag_f5_box{
+.infoTag__listFrame{
 	padding: 0 calc(2*4px);
 }
-ul.single_info_tag_f6_list{
+.infoTag__list{
 	min-height: calc(18*4px);
 }
-li.single_info_tag_f7_title{
+.infoTag__listElement{
 	margin-bottom: calc(2*4px);
 	font-size: calc(3*4px);
 }
-.single_info_tag_f2_sub-box{
+.infoTag__listLink{
+}
+.infoTag__bottomBox{
+}
+.infoTag__bottomTitleText{
+}
+/*	2-3.ストア(store)
+------------------------- */
+.single_store_f1{
+}
+/*---box---*/
+.single_store_f2_box{
+}
+ul.single_store_f3_list{
+	position: relative;
+	display: flex;
+	width: 100%;
+}
+ul.single_store_f3_list:not(:last-child)::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #aaa;
+}
+li.single_store_f4_title{
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	min-width: 33.3%;
+	aspect-ratio: 16 / 9;
+	font-size: calc(5*4px);
 }
-.single_info_tag_f3_title{
-	font-size: calc(3*4px);
-	color: #777;
+li.single_store_f4_title.one-thirds{
+	min-width: 33.3%;
+	aspect-ratio: 16 / 9;
 }
-/*---index---*/
+li.single_store_f4_title.one-half{
+	min-width: 50%;
+	aspect-ratio: 16 / 9;
+}
+li.single_store_f4_title.two-thirds{
+	min-width: 66.6%;
+	aspect-ratio: 32 / 9;
+}
+li.single_store_f4_title.three-thirds{
+	min-width: 100%;
+	aspect-ratio: 48 / 9;
+}
+li.single_store_f4_title a{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+}
+li.single_store_f4_title:not(:last-child)::after{
+	position: absolute;
+	top: 8px;
+	left: 100%;
+	content: "";
+	width: 1px;
+	height: calc(100% - 16px);
+	background: #aaa;
+}
+/*	2-4.年表(index)
+------------------------- */
+/*--index--*/
 .single_index_f1{
 }
 .single_index_f2_age{
@@ -554,7 +622,8 @@ li.single_index_f7_product-store-title:not(:last-child)::after{
 	font-size: calc(3*4px);
 	color: #777;
 }
-/*---impression---*/
+/*	2-5.感想(impression)
+------------------------- */
 .single_impression_f1{
 }
 .single_impression_f2_text-box:not(:last-child){
@@ -615,68 +684,8 @@ li.single_index_f7_product-store-title:not(:last-child)::after{
 .single_impression_f5_nest-text p:not(:last-child){
 	margin-bottom: calc(4*4px);
 }
-/*---store---*/
-.single_store_f1{
-}
-/*---box---*/
-.single_store_f2_box{
-}
-ul.single_store_f3_list{
-	position: relative;
-	display: flex;
-	width: 100%;
-}
-ul.single_store_f3_list:not(:last-child)::after {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	content: "";
-	width: 100%;
-	height: 1px;
-	background: #aaa;
-}
-li.single_store_f4_title{
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-width: 33.3%;
-	aspect-ratio: 16 / 9;
-	font-size: calc(5*4px);
-}
-li.single_store_f4_title.one-thirds{
-	min-width: 33.3%;
-	aspect-ratio: 16 / 9;
-}
-li.single_store_f4_title.one-half{
-	min-width: 50%;
-	aspect-ratio: 16 / 9;
-}
-li.single_store_f4_title.two-thirds{
-	min-width: 66.6%;
-	aspect-ratio: 32 / 9;
-}
-li.single_store_f4_title.three-thirds{
-	min-width: 100%;
-	aspect-ratio: 48 / 9;
-}
-li.single_store_f4_title a{
-	display: flex;
-	justify-content: center;
-    align-items: center;
-    width: calc(100% - 16px);
-    height: calc(100% - 16px);
-}
-li.single_store_f4_title:not(:last-child)::after{
-	position: absolute;
-	top: 8px;
-	left: 100%;
-	content: "";
-	width: 1px;
-	height: calc(100% - 16px);
-	background: #aaa;
-}
-/*---related---*/
+/*	2-6.関連(related)
+------------------------- */
 .single_related_f1{
 }
 .single_related_f2_main-box{
