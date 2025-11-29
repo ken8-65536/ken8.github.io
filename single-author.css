@@ -418,17 +418,17 @@ li.single_f5_switch-author:not(:last-child)::after {
 ------------------------- */
 .impression{
 }
-.impressionTextBox:not(:last-child){
+.impressionTextFrame:not(:last-child){
 	margin-bottom: calc(12*4px);
 }
-.impressionTextBox:last-child{
+.impressionTextFrame:last-child{
 	margin-bottom: calc(8*4px);
 }
-.impressionTextFrame{
+.impressionTextBox{
 	display: flex;
 	justify-content: center;
 }
-.impressionTextFrame:not(:last-child){
+.impressionTextBox:not(:last-child){
 	margin-bottom: calc(12*4px);
 }
 .impressionText__number{
@@ -451,7 +451,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 	margin-bottom: calc(4*4px);
 }
 /*--入れ子の文(nest)--*/
-.impressionTextFrame--nest:not(:last-child){
+.impressionTextBox--nest:not(:last-child){
 	margin-bottom: calc(12*4px);
 }
 .impressionText__number--nest{
@@ -460,10 +460,9 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 /*	2-4.ストア(store)
 ------------------------- */
-.single_store_f1{
+.store{
 }
-/*---box---*/
-.single_store_f2_box{
+.storeFrame{
 }
 ul.single_store_f3_list{
 	position: relative;
