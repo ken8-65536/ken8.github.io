@@ -57,7 +57,7 @@ li{
 		2-2.インフォメーション(info)
 		2-3.感想(impression)
 		2-4.ストア(store)
-		2-5.年表(index)(上位カテゴリのみ)
+		2-5.年表(chronicle)(上位カテゴリのみ)
 		2-6.関連(related)
 
 ------------------------- */
@@ -226,7 +226,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 	margin-bottom: calc(4*4px);
 	padding: 0 calc(8*4px);
 }
-.infoImg__decoration{
+.infoImg__imageDecoration{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -235,10 +235,10 @@ li.single_f5_switch-author:not(:last-child)::after {
 	background: #fff;
 	border: 1px solid #ddd;
 }
-.infoImgTopCategory__decoration{
+.infoImgTopCategory__imageDecoration{
     border-radius: 50%;
 }
-.infoImgSubCategory__decoration{
+.infoImgSubCategory__imageDecoration{
 }
 .infoImg__imageFrame{
 	height: 100%;
@@ -464,7 +464,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 .store{
 	font-size: calc(5*4px);
 }
-.storeIndex{
+.storeIndex{/*--chronicleのみ--*/
 	font-size: calc(4*4px);
 }
 .store__frame{
@@ -521,27 +521,26 @@ li.single_f5_switch-author:not(:last-child)::after {
     width: calc(100% - 16px);
     height: calc(100% - 16px);
 }
-/*	2-5.年表(index)
+/*	2-5.年表(chronicle)(上位カテゴリのみ)
 ------------------------- */
-/*--index--*/
-.single_index_f1{
+.chronicle{
 }
-.single_index_f2_age{
+.chronicle__age{
 	margin-bottom: calc(5*4px);
 	font-size: calc(10*4px);
 	font-weight: 800;
 	line-height: 1.25;
 	color: #999;
 }
-.single_index_f2_main-box{
+.chronicleProduct{
 	position: relative;
 	padding: 0 calc(8*4px);
 }
-.single_index_f2_main-box:not(:last-child){
+.chronicleProduct:not(:last-child){
 	margin-bottom: calc(8*4px);
 	padding-bottom: calc(8*4px);
 }
-.single_index_f2_main-box:not(:last-child)::after{
+.chronicleProduct:not(:last-child)::after{
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -550,14 +549,14 @@ li.single_f5_switch-author:not(:last-child)::after {
 	height: 1px;
 	background: #eee;
 }
-.single_index_f3_product-box{
+.chronicleProduct__frame{
 	position: relative;
 }
-.single_index_f3_product-box:not(:last-child){
+.chronicleProduct__frame:not(:last-child){
 	margin-bottom: calc(8*4px);
 	padding-bottom: calc(8*4px);
 }
-.single_index_f3_product-box:not(:last-child)::after{
+.chronicleProduct__frame:not(:last-child)::after{
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -566,32 +565,32 @@ li.single_f5_switch-author:not(:last-child)::after {
 	height: 1px;
 	background: #eee;
 }
-.single_index_f4_product-title-box{
+.chronicleProduct__title{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
 	margin-bottom: calc(4*4px);
 }
-.single_index_f5_product-title{
+.chronicleProduct__titleText{
 	margin-bottom: calc(1*4px);
 	font-size: calc(5*4px);
 	line-height: 1.25;
 }
-.single_index_f5_single-link-box{
+.chronicleProduct__detail{
 	font-size: calc(3*4px);
 }
-a.single_index_f6_single-link{
+.chronicleProduct__detailLink{
 	display: flex;
 }
-.single_index_f7_single-link-title{
+.chronicleProduct__detailLinkTitle{
 }
-.single_index_f7_single-link-icon{
+.chronicleProduct__detailLinkIcon{
 	width: calc(3*4px);
 	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
     pointer-events: none;
 }
-.single_index_f4_product-image-box{
+.chronicleProduct__imageDecoration{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -602,10 +601,10 @@ a.single_index_f6_single-link{
 	border: 1px solid #ddd;
 	margin-bottom: calc(4*4px);
 }
-.single_index_f5_image-box{
+.chronicleProduct__imageFrame{
 	height: 100%;
 }
-img.single_index_f6_image{
+.chronicleProduct__image{
 	height: 100%;
 }
 .single_index_f4_product-info-box{
