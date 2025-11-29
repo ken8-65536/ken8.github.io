@@ -627,7 +627,7 @@ a{
 .related__listLinkImage{
 	width: 100%;
 }
-.related__listLinkImage{
+.related__listLinkImage .related__listLinkImage--topCategory{
 	border-radius: 50%;
 }
 .related__listLinkTitle{
