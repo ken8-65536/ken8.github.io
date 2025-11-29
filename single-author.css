@@ -231,15 +231,19 @@ li.single_f5_switch-author:not(:last-child)::after {
 	align-items: center;
 	width: 100%;
 	aspect-ratio: 1;
-	padding: calc(4*4px);
 	background: #fff;
 	border: 1px solid #ddd;
 }
 .infoImgTopCategory__decoration{
+	padding: calc(4*4px);
     border-radius: 50%;
 }
+.infoImgSubCategory__decoration{
+}
+.infoImg__imageFrame{
+	height: 100%;
+}
 .infoImg__image{
-	width: 100%;
 	height: 100%;
 }
 .infoImgTopCategory__image{
