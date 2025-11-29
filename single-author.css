@@ -243,6 +243,9 @@ li.single_f5_switch-author:not(:last-child)::after {
 .infoImg__imageFrame{
 	height: 100%;
 }
+.infoImgTopCategory__imageFrame{
+	padding: calc(4*4px);
+}
 .infoImgSubCategory__imageFrame{
 	padding: calc(4*4px);
 }
