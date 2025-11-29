@@ -174,43 +174,6 @@ a{
 .sectionTitleSingle{
 	margin-bottom: calc(8*4px);
 }
-/*--見出しの切り替えBOX--*/
-.single_f3_switch{
-	padding-top: var(--result-16);
-}
-ul.single_f4_switch-list{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    width: 100%;
-}
-li.single_f5_switch-author{
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    min-width: calc(33.3% - 3.3px);
-}
-li.single_f5_switch-author:not(:last-child)::after {
-    position: absolute;
-    top: 4px;
-    left: 100%;
-    content: "";
-    width: 1px;
-    height: calc(100% - 8px);
-    background: #aaa;
-}
-.single_f6_switch-button-active{
-	padding: calc(1*4px) calc(4*4px);/*---font-sizeと連動---*/
-    border-radius: calc(6*4px);
-	background: #aaa;
-    color: #fff;
-	font-weight: 800;
-}
-.single_f6_switch-button{
-	color: #999;
-	font-weight: 100;
-}
 /*	2-2.インフォメーション(info)
 ------------------------- */
 /*--image--*/
@@ -364,10 +327,6 @@ li.single_f5_switch-author:not(:last-child)::after {
     font-size: calc(3*4px);
     color: #999;
 }
-.infoLinks__bottomTitleBox{
-}
-.infoLinks__bottomTitleText{
-}
 /*--tag--*/
 .infoTag{
 }
@@ -410,10 +369,6 @@ li.single_f5_switch-author:not(:last-child)::after {
 	font-size: calc(3*4px);
 }
 .infoTag__listLink{
-}
-.infoTag__bottomBox{
-}
-.infoTag__bottomTitleText{
 }
 /*	2-3.感想(impression)
 ------------------------- */
@@ -606,76 +561,6 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 .chronicleProduct__image{
 	height: 100%;
-}
-.single_index_f4_product-info-box{
-	width: 100%;
-}
-.single_index_f5_product-store-box{
-	margin-bottom: calc(2*4px);
-}
-ul.single_index_f6_product-store-list{
-	position: relative;
-	display: flex;
-	width: 100%;
-}
-ul.single_index_f6_product-store-list:not(:last-child)::after{
-	position: absolute;
-	top: 100%;
-	left: 0;
-	content: "";
-	width: 100%;
-	height: 1px;
-	background: #aaa;
-}
-li.single_index_f7_product-store-title{
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-width: 33.3%;
-	aspect-ratio: 16 / 9;
-	font-size: calc(4*4px);
-}
-li.single_index_f7_product-store-title.one-thirds{
-	min-width: 33.3%;
-	aspect-ratio: 16 / 9;
-}
-li.single_index_f7_product-store-title.one-half{
-	min-width: 50%;
-	aspect-ratio: 16 / 9;
-}
-li.single_index_f7_product-store-title.two-thirds{
-	min-width: 66.6%;
-	aspect-ratio: 32 / 9;
-}
-li.single_index_f7_product-store-title.three-thirds{
-	min-width: 100%;
-	aspect-ratio: 48 / 9;
-}
-li.single_index_f7_product-store-title a{
-	display: flex;
-	justify-content: center;
-    align-items: center;
-    width: calc(100% - 16px);
-    height: calc(100% - 16px);
-}
-li.single_index_f7_product-store-title:not(:last-child)::after{
-	position: absolute;
-	top: 8px;
-	left: 100%;
-	content: "";
-	width: 1px;
-	height: calc(100% - 16px);
-	background: #aaa;
-}
-.single_index_f5_product-sub-box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.single_index_f6_product-sub-title{
-	font-size: calc(3*4px);
-	color: #777;
 }
 /*	2-6.関連(related)
 ------------------------- */
