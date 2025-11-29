@@ -55,9 +55,9 @@ li{
 	2.single共通
 		2-1.共通
 		2-2.インフォメーション(info)
-		2-3.ストア(store)
-		2-4.年表(index)
-		2-5.感想(impression)
+		2-3.感想(impression)
+		2-4.ストア(store)
+		2-5.年表(index)(上位カテゴリのみ)
 		2-6.関連(related)
 
 ------------------------- */
@@ -414,7 +414,51 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 .infoTag__bottomTitleText{
 }
-/*	2-3.ストア(store)
+/*	2-3.感想(impression)
+------------------------- */
+.impression{
+}
+.impressionTextBox:not(:last-child){
+	margin-bottom: calc(12*4px);
+}
+.impressionTextBox:last-child{
+	margin-bottom: calc(8*4px);
+}
+.impressionTextFrame{
+	display: flex;
+	justify-content: center;
+}
+.impressionTextFrame:not(:last-child){
+	margin-bottom: calc(12*4px);
+}
+.impressionText__number{
+	min-width: calc(5*4px);
+	margin-right: calc(3*4px);
+	font-size: calc(5*4px);
+}
+.impressionText__letterBody{
+}
+.impressionText__letterTitle{
+	margin-bottom: calc(5*4px);
+	font-size: calc(5*4px);
+}
+.impressionText__letterText{
+}
+.impressionText__letterText p{
+	line-height: 1.25;
+}
+.impressionText__letterText p:not(:last-child){
+	margin-bottom: calc(4*4px);
+}
+/*--入れ子の文(nest)--*/
+.impressionTextFrame--nest:not(:last-child){
+	margin-bottom: calc(12*4px);
+}
+.impressionText__number--nest{
+	min-width: calc(10*4px);
+	margin-right: calc(2*4px);
+}
+/*	2-4.ストア(store)
 ------------------------- */
 .single_store_f1{
 }
@@ -476,7 +520,7 @@ li.single_store_f4_title:not(:last-child)::after{
 	height: calc(100% - 16px);
 	background: #aaa;
 }
-/*	2-4.年表(index)
+/*	2-5.年表(index)
 ------------------------- */
 /*--index--*/
 .single_index_f1{
@@ -632,68 +676,6 @@ li.single_index_f7_product-store-title:not(:last-child)::after{
 .single_index_f6_product-sub-title{
 	font-size: calc(3*4px);
 	color: #777;
-}
-/*	2-5.感想(impression)
-------------------------- */
-.single_impression_f1{
-}
-.single_impression_f2_text-box:not(:last-child){
-	margin-bottom: calc(12*4px);
-}
-.single_impression_f2_text-box:last-child{
-	margin-bottom: calc(8*4px);
-}
-.single_impression_f3_box{
-	display: flex;
-	justify-content: center;
-}
-.single_impression_f3_box:not(:last-child){
-	margin-bottom: calc(12*4px);
-}
-.single_impression_f4_number{
-	min-width: calc(5*4px);
-	margin-right: calc(3*4px);
-	font-size: calc(5*4px);
-}
-.single_impression_f4_box{
-}
-.single_impression_f5_title{
-	margin-bottom: calc(5*4px);
-	font-size: calc(5*4px);
-}
-.single_impression_f5_text{
-}
-.single_impression_f5_text p{
-	line-height: 1.25;
-}
-.single_impression_f5_text p:not(:last-child){
-	margin-bottom: calc(4*4px);
-}
-.single_impression_f3_nest-box{
-	display: flex;
-	justify-content: center;
-}
-.single_impression_f3_nest-box:not(:last-child){
-	margin-bottom: calc(12*4px);
-}
-.single_impression_f4_nest-number{
-	min-width: calc(10*4px);
-	margin-right: calc(2*4px);
-	font-size: calc(5*4px);
-}
-.single_impression_f4_nest-box{
-}
-.single_impression_f5_nest-title{
-	margin-bottom: calc(5*4px);
-	font-size: calc(5*4px);
-}
-.single_impression_f5_nest-text{
-}
-.single_impression_f5_nest-text p{
-	line-height: 1.25;
-}
-.single_impression_f5_nest-text p:not(:last-child){
-	margin-bottom: calc(4*4px);
 }
 /*	2-6.関連(related)
 ------------------------- */
