@@ -257,7 +257,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 /*--summary--*/
 .infoSummary{
 	width: 100%;
-	margin-bottom: calc(2*4px);
+	margin-bottom: calc(4*4px);
 }
 .infoSummary__frame{
 	width: 100%;
@@ -269,7 +269,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 .infoSummary__listElement{
 	width: 100%;
-	margin-bottom: calc(6*4px);
+	margin-bottom: calc(4*4px);
 }
 .infoSummary__listElement--main{
 	margin-bottom: calc(8*4px);
