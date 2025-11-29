@@ -235,7 +235,6 @@ li.single_f5_switch-author:not(:last-child)::after {
 	border: 1px solid #ddd;
 }
 .infoImgTopCategory__decoration{
-	padding: calc(4*4px);
     border-radius: 50%;
 }
 .infoImgSubCategory__decoration{
