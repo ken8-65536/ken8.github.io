@@ -462,6 +462,10 @@ li.single_f5_switch-author:not(:last-child)::after {
 /*	2-4.ストア(store)
 ------------------------- */
 .store{
+	font-size: calc(5*4px);
+}
+.storeIndex{
+	font-size: calc(4*4px);
 }
 .store__frame{
 }
@@ -486,7 +490,6 @@ li.single_f5_switch-author:not(:last-child)::after {
 	align-items: center;
 	width: 33.3%;
 	aspect-ratio: 16 / 9;
-	font-size: calc(5*4px);
 }
 .store__listElement--oneThirds{
 	width: 33.3%;
