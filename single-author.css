@@ -506,7 +506,6 @@ a{
 }
 .chronicleProduct{
 	position: relative;
-	padding: 0 calc(8*4px);
 }
 .chronicleProduct:not(:last-child){
 	margin-bottom: calc(8*4px);
