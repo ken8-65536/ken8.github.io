@@ -218,7 +218,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 }
 .infoImgTopCategory/*--上位カテゴリ--*/,
 .infoImgSubCategory/*--下位カテゴリ--*/{
-	margin-bottom: calc(6*4px);
+	margin-bottom: calc(8*4px);
 }
 .infoImg__frame{
 	width: 100%;
@@ -257,6 +257,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 /*--summary--*/
 .infoSummary{
 	width: 100%;
+	margin-bottom: calc(2*4px);
 }
 .infoSummary__frame{
 	width: 100%;
@@ -271,6 +272,7 @@ li.single_f5_switch-author:not(:last-child)::after {
 	margin-bottom: calc(6*4px);
 }
 .infoSummary__listElement--main{
+	margin-bottom: calc(8*4px);
 	padding: 0 calc(2*4px);
 }
 .infoSummary__listElement--oneThirds{
@@ -304,7 +306,6 @@ li.single_f5_switch-author:not(:last-child)::after {
 	color: #777;
 }
 .infoSummary__listTitleLink{
-	font-size: calc(5*4px);
 }
 /*--link--*/
 .infoLinks{
