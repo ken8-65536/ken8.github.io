@@ -184,8 +184,8 @@ a{
 .infoImg{
 	width: 100%;
 }
-.infoImgTopCategory/*--上位カテゴリ--*/,
-.infoImgSubCategory/*--下位カテゴリ--*/{
+.infoImg--topCategory/*--上位カテゴリ--*/,
+.infoImg--subCategory/*--下位カテゴリ--*/{
 	margin-bottom: calc(8*4px);
 }
 .infoImg__frame{
@@ -202,24 +202,24 @@ a{
 	background: #fff;
 	border: 1px solid #ddd;
 }
-.infoImgTopCategory__imageDecoration{
+.infoImg__imageDecoration--topCategory{
     border-radius: 50%;
 }
-.infoImgSubCategory__imageDecoration{
+.infoImg__imageDecoration--subCategory{
 }
 .infoImg__imageFrame{
 	height: 100%;
 }
-.infoImgTopCategory__imageFrame{
+.infoImg__imageFrame--topCategory{
 	padding: calc(4*4px);
 }
-.infoImgSubCategory__imageFrame{
+.infoImg__imageFrame--subCategory{
 	padding: calc(4*4px);
 }
 .infoImg__image{
 	height: 100%;
 }
-.infoImgTopCategory__image{
+.infoImg__image--topCategory{
 	border-radius: 50%;
 }
 /*--summary--*/
