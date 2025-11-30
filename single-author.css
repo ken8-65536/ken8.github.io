@@ -206,6 +206,7 @@ a{
     border-radius: 50%;
 }
 .infoImg__imageDecoration--subCategory{
+	border-radius: var(--result-04);
 }
 .infoImg__imageFrame{
 	height: 100%;
