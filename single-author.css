@@ -161,7 +161,7 @@ a{
 	margin-bottom: var(--result-64);
 	padding: 0 var(--result-16) var(--result-64);
 }
-.sectionSingle{
+.sectionSingle:last-child{
 	margin-bottom: var(--result-32);
 	padding-bottom: var(--result-32);
 }
