@@ -158,8 +158,12 @@ a{
 /*	2-1.共通
 ------------------------- */
 .sectionSingle{
+	margin-bottom: var(--result-64);
+	padding: 0 var(--result-16) var(--result-64);
+}
+.sectionSingle{
 	margin-bottom: var(--result-32);
-	padding: 0 var(--result-16) var(--result-32);
+	padding-bottom: var(--result-32);
 }
 .sectionSingle:not(:last-child)::after{
 	position: absolute;
@@ -379,9 +383,6 @@ a{
 }
 .impressionTextFrame:not(:last-child){
 	margin-bottom: calc(12*4px);
-}
-.impressionTextFrame:last-child{
-	margin-bottom: calc(8*4px);
 }
 .impressionTextBox{
 	display: flex;
