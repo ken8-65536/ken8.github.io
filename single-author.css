@@ -225,6 +225,8 @@ a{
 /*--summary--*/
 .infoSummary{
 	width: 100%;
+}
+.infoSummary--subCategory{
 	margin-bottom: calc(4*4px);
 }
 .infoSummary__frame{
