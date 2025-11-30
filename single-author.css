@@ -559,10 +559,11 @@ a{
 	align-items: center;
 	width: 100%;
 	aspect-ratio: 1;
+	margin-bottom: calc(4*4px);
 	padding: calc(4*4px);
 	background: #fff;
 	border: 1px solid #ddd;
-	margin-bottom: calc(4*4px);
+	border-radius: var(--result-04);
 }
 .chronicleProduct__imageFrame{
 	height: 100%;
