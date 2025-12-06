@@ -699,6 +699,7 @@ a{
 }
 /*--入れ子(nest)--*/
 .indexTitleBox--nest{
+	font-size: calc(4*4px);
 }
 .indexTitleBox--nest:not(:last-child){
 	margin-bottom: calc(5*4px);
