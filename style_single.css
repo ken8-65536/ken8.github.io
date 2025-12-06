@@ -448,8 +448,8 @@ a{
 	margin-bottom: calc(12*4px);
 }
 .impressionText__number--nest{
-	min-width: calc(10*4px);
-	margin-right: calc(2*4px);
+	min-width: calc(12*4px);
+	margin-right: 0;
 }
 /*	2-4.ストア(store)
 ------------------------- */
@@ -707,4 +707,5 @@ a{
 .indexTitle__number--nest{
 	width: calc(12*4px);
 	margin-left: calc(9*4px);
+	margin-right: 0;
 }
