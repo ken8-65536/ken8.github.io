@@ -425,14 +425,12 @@ a{
 	margin-bottom: calc(12*4px);
 }
 .impressionText__number{
-	position: relative;
 	min-width: calc(5*4px);
 	margin-right: calc(3*4px);
 	font-size: calc(5*4px);
 }
 .impressionText__number span{
-	position: absolute;
-	white-space: nowrap;
+	font-size: calc(4*4px);
 }
 .impressionText__letterBody{
 }
