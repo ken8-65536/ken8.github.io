@@ -398,6 +398,17 @@ a{
 }
 .infoTag__listLink{
 }
+/*--topicsのみ--*/
+.infoTag__topicsList{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.infoTag__topicsListElement{
+	font-size: calc(5*4px);
+}
+.infoTag__topicsListLink{
+}
 /*	2-3.感想(impression)
 ------------------------- */
 .impression{
