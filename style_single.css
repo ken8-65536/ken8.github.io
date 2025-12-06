@@ -703,7 +703,7 @@ a{
 .indexTitleBox--nest{
 }
 .indexTitleBox--nest:not(:last-child){
-	margin-bottom: calc(12*4px);
+	margin-bottom: calc(5*4px);
 }
 .indexTitle__number--nest{
 	min-width: calc(10*4px);
