@@ -684,6 +684,7 @@ a{
 }
 .indexTitleBox{
 	display: flex;
+	font-size: calc(5*4px);
 }
 .indexTitleBox:not(:last-child){
 	margin-bottom: calc(5*4px);
@@ -691,12 +692,10 @@ a{
 .indexTitle__number{
 	min-width: calc(5*4px);
 	margin-right: calc(3*4px);
-	font-size: calc(5*4px);
 }
 .indexTitle__body{
 }
 .indexTitle__text{
-	font-size: calc(5*4px);
 }
 /*--入れ子(nest)--*/
 .indexTitleBox--nest{
