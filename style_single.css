@@ -696,7 +696,6 @@ a{
 .indexTitle__body{
 }
 .indexTitle__text{
-	line-height: 1.25;
 	font-size: calc(5*4px);
 }
 /*--入れ子(nest)--*/
