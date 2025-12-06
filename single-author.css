@@ -238,6 +238,9 @@ a{
 .infoImg__image--topCategory{
 	border-radius: 50%;
 }
+.infoImg__image--topicsCategory{
+	width: 100%;
+}
 /*--summary--*/
 .infoSummary{
 	width: 100%;
