@@ -702,7 +702,7 @@ a{
 	font-size: calc(4*4px);
 }
 .indexTitleBox--nest:not(:last-child){
-	margin-bottom: calc(5*4px);
+	margin-bottom: calc(4*4px);
 }
 .indexTitle__number--nest{
 	min-width: calc(10*4px);
