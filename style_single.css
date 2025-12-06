@@ -706,5 +706,6 @@ a{
 }
 .indexTitle__number--nest{
 	min-width: calc(10*4px);
+	margin-left: calc(9*4px);
 	margin-right: calc(2*4px);
 }
