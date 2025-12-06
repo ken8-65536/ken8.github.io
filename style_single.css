@@ -432,6 +432,7 @@ a{
 }
 .impressionText__number span{
 	position: absolute;
+	white-space: nowrap;
 }
 .impressionText__letterBody{
 }
