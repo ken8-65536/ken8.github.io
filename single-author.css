@@ -180,17 +180,28 @@ a{
 }
 /*	2-2.インフォメーション(info)
 ------------------------- */
+/*--title(トピックスのみ)--*/
+.infoTitle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: calc(8*4px);
+}
+.infoTitle__text{
+	line-height: 1.25;
+	font-size: calc(6*4px);
+}
 /*--image--*/
 .infoImg{
 	width: 100%;
 }
 .infoImg--topCategory/*--上位カテゴリ--*/,
-.infoImg--subCategory/*--下位カテゴリ--*/{
+.infoImg--subCategory/*--下位カテゴリ--*/,
+.infoImg--topicsCategory/*--topics--*/{
 	margin-bottom: calc(8*4px);
 }
 .infoImg__frame{
 	width: 100%;
-	margin-bottom: calc(4*4px);
 	padding: 0 calc(8*4px);
 }
 .infoImg__imageDecoration{
@@ -216,6 +227,10 @@ a{
 }
 .infoImg__imageFrame--subCategory{
 	padding: calc(4*4px);
+}
+.infoImg__imageFrame--topicsCategory{
+	width: 100%;
+	aspect-ratio: 16 / 9;
 }
 .infoImg__image{
 	height: 100%;
