@@ -675,6 +675,9 @@ a{
 	line-height: 1.25;
 	font-size: calc(3*4px);
 }
+.related__listLinkTitle--topics{
+	font-size: calc(4*4px);
+}
 /*	2-7.目次・索引
 ------------------------- */
 /*--目次(topicsのみ)--*/
