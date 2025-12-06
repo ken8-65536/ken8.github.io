@@ -358,7 +358,7 @@ a{
 /*--tag--*/
 .infoTag{
 }
-.infoTag__top{/*---スクロール機能あり---*/
+.infoTag__frame{/*---スクロール機能あり---*/
 	margin-bottom: calc(2*4px);
 }
 .infoTag__50onList{
