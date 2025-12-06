@@ -448,7 +448,7 @@ a{
 	margin-bottom: calc(12*4px);
 }
 .impressionText__number--nest{
-	min-width: calc(16*4px);
+	min-width: calc(12*4px);
 	margin-right: 0;
 }
 /*	2-4.ストア(store)
