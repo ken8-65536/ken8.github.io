@@ -59,6 +59,7 @@ li{
 		2-4.ストア(store)
 		2-5.年表(chronicle)(上位カテゴリのみ)
 		2-6.関連(related)
+		2-7.目次・索引
 
 ------------------------- */
 /* -------------------------
@@ -358,7 +359,7 @@ a{
 /*--tag--*/
 .infoTag{
 }
-.infoTag__frame{/*---スクロール機能あり---*/
+.infoTag__frame{/*--スクロール機能あり--*/
 	margin-bottom: calc(2*4px);
 }
 .infoTag__50onList{
@@ -442,7 +443,7 @@ a{
 .impressionText__letterText p:not(:last-child){
 	margin-bottom: calc(4*4px);
 }
-/*--入れ子の文(nest)--*/
+/*--入れ子(nest)--*/
 .impressionTextBox--nest:not(:last-child){
 	margin-bottom: calc(12*4px);
 }
@@ -612,7 +613,7 @@ a{
 	justify-content: center;
 	align-items: center;
 }
-.related__listFrame{/*---スクロール機能あり---*/
+.related__listFrame{/*--スクロール機能あり--*/
 	display: flex;
 	width: 100%;
 }
@@ -633,7 +634,7 @@ a{
 	display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-bottom: calc(2*4px);/*---.single_related_f7_title-boxのpaddingと連動---*/
+    margin-bottom: calc(2*4px);/*--.single_related_f7_title-boxのpaddingと連動--*/
 }
 .related__listTitle{
 	font-size: calc(10*4px);
@@ -670,4 +671,43 @@ a{
 	align-items: center;
 	line-height: 1.25;
 	font-size: calc(3*4px);
+}
+/*	2-7.目次・索引
+------------------------- */
+/*--目次(topicsのみ)--*/
+.index{
+}
+.indexFrame{
+}
+.indexFrame:not(:last-child){
+	margin-bottom: calc(5*4px);
+}
+.indexTitleBox{
+	display: flex;
+	justify-content: center;
+}
+.indexTitleBox:not(:last-child){
+	margin-bottom: calc(5*4px);
+}
+.indexTitle__number{
+	min-width: calc(5*4px);
+	margin-right: calc(3*4px);
+	font-size: calc(5*4px);
+}
+.indexTitle__body{
+}
+.indexTitle__text{
+	margin-bottom: calc(5*4px);
+	line-height: 1.25;
+	font-size: calc(5*4px);
+}
+/*--入れ子(nest)--*/
+.indexTitleBox--nest{
+}
+.indexTitleBox--nest:not(:last-child){
+	margin-bottom: calc(12*4px);
+}
+.indexTitle__number--nest{
+	min-width: calc(10*4px);
+	margin-right: calc(2*4px);
 }
