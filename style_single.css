@@ -825,6 +825,7 @@ a{
 	margin-bottom: calc(2*4px);
 }
 .searchTag__label{
+	display: flex;
 }
 .searchTag__inputCheckbox{
 }
