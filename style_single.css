@@ -735,7 +735,22 @@ a{
 /*	3-2.検索(search)
 ------------------------- */
 .sectionArchive--search{
+	margin-bottom: var(--result-64);
 	padding: 0;
+	padding-bottom: var(--result-64);
+}
+.sectionArchive--search:last-child{
+	margin-bottom: var(--result-32);
+	padding-bottom: var(--result-32);
+}
+.sectionArchive--search:not(:last-child)::after{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: var(--color-d);
 }
 /*--検索ウィンドウ--*/
 .searchWindow{
