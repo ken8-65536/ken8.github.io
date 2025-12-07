@@ -744,14 +744,15 @@ a{
 .searchWord__form{
 	display: flex;
 	align-items: center;
-    overflow: hidden;
+	width: 100%;
     border: 1px solid var(--color-6);
     border-radius: 4px;
+	overflow: hidden;
 }
 .searchWord__input{
 	width: 100%;
     height: var(--result-40);
-    padding: 4px 16px 4px 0;
+    padding: 4px 16px;
     border: none;
     box-sizing: border-box;
     font-size: 16px;
