@@ -731,3 +731,19 @@ a{
 .sectionTitleArchive{
 	margin-bottom: calc(8*4px);
 }
+/*	3-2.検索(search)
+------------------------- */
+/*--検索ウィンドウ--*/
+.searchWindow{
+}
+/*--フリーワード検索--*/
+.searchWord{
+}
+.searchWord__frame{
+}
+.searchWord__form{
+}
+.searchWord__input{
+}
+.searchWord__button{
+}
