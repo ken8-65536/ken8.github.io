@@ -729,11 +729,14 @@ a{
 	padding: 0 var(--result-16);
 }
 /*--見出し--*/
-.sectionTitleArchive{
+.sectionTitle--archive{
 	margin-bottom: calc(8*4px);
 }
 /*	3-2.検索(search)
 ------------------------- */
+.sectionArchive--search{
+	padding: 0;
+}
 /*--検索ウィンドウ--*/
 .searchWindow{
 	margin-bottom: var(--result-64);
