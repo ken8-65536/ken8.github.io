@@ -755,6 +755,7 @@ a{
     border: 1px solid var(--color-6);
     border-radius: 4px;
 	overflow: hidden;
+	background: var(--color-fa);
 }
 .searchWord__label{
 	width: 100%;
@@ -767,6 +768,7 @@ a{
     box-sizing: border-box;
     font-size: 16px;
     outline: none;
+	background: var(--color-fa);
 }
 .searchWord__inputText::placeholder {
     color: var(--color-6);
