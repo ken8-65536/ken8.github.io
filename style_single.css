@@ -848,8 +848,8 @@ a{
 .searchTag__inputCheckbox:checked + .searchTag__text::before { /* チェックボックスの作成 */
     content: "";
     background: #fff;
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     border: 1px solid #B0AB99;
     border-radius: 2px;
     position: absolute;
@@ -864,9 +864,9 @@ a{
     border-bottom: 2px solid #4d5fc3;
     border-right: 2px solid #4d5fc3;
     width: 8px;
-    height: 16px;
+    height: 12px;
     position: absolute;
-    left: 5px;
+    left: 4px;
     top: -4px;
     transform: rotate(42deg);
     opacity: 0;
