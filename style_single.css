@@ -754,7 +754,6 @@ a{
 }
 /*--検索ウィンドウ--*/
 .searchWindow{
-	margin-bottom: var(--result-64);
 	padding: 16px;
     border: 1px solid #999;
     border-radius: 4px;
