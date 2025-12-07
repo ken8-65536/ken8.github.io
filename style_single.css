@@ -741,6 +741,7 @@ a{
 .searchWord{
 }
 .searchWord__frame{
+	margin-bottom: var(--result-08);
 }
 .searchWord__form{
 	display: flex;
