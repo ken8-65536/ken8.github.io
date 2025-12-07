@@ -742,8 +742,38 @@ a{
 .searchWord__frame{
 }
 .searchWord__form{
+	display: flex;
+	align-items: center;
+    overflow: hidden;
+    border: 1px solid var(--color-6);
+    border-radius: 4px;
 }
 .searchWord__input{
+	width: 100%;
+    height: var(--result-40);
+    padding: 4px 16px 4px 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+.searchWord__input::placeholder {
+    color: var(--color-6);
 }
 .searchWord__button{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.searchWord__button::before {
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/icon_search.svg);
+    background-repeat: no-repeat;
+    content: '';
 }
