@@ -842,11 +842,11 @@ a{
 	font-size: calc(3*4px);
 }
 
-.searchTag__inputCheckbox:checked + .searchTag__text{
+.searchTag__inputCheckbox + .searchTag__text{
 	position: relative;
     padding-left: 12px;
 }
-.searchTag__inputCheckbox:checked + .searchTag__text::before { /* チェックボックスの作成 */
+.searchTag__inputCheckbox + .searchTag__text::before { /* チェックボックスの作成 */
     content: "";
     background: #fff;
     width: 12px;
@@ -858,7 +858,7 @@ a{
     left: 0;
     transform: translateY(-50%);
 }
-.searchTag__inputCheckbox:checked + .searchTag__text::after { /* チェックの作成 */
+.searchTag__inputCheckbox + .searchTag__text::after { /* チェックの作成 */
     content: "";
     display: block;
     background: transparent;
