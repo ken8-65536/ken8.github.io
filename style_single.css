@@ -899,6 +899,7 @@ a{
 	padding: 4px 16px;
 	font-size: var(--result-16);
 	border: 1px solid var(--color-6);
+	border-radius: var(--result-04);
 }
 .searchButton__button--run{
 	color: var(--color-fa);
