@@ -790,7 +790,7 @@ a{
 .searchTag__frame{/*--スクロール機能あり--*/
 	margin-bottom: calc(2*4px);
 }
-.infoTag__50onList{
+.searchTag__50onList{
 	display: flex;
 	width: 100%;
 }
