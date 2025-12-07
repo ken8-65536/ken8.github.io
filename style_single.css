@@ -947,12 +947,11 @@ a{
 }
 .searchResult__word,
 .searchResult__tag{
-	width: calc(100% - 112px);
+	width: calc(100% - 120px);
 }
 .searchResult__word{
 }
 .searchResult__tag{
-	width: calc(100% - 112px);
 }
 .searchResult__tagList{
 	display: flex;
