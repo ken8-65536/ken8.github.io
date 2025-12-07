@@ -930,6 +930,7 @@ a{
 .searchResult__box--tag{
 }
 .searchResult__title{
+	width: 33.3%;
 }
 .searchResult__glue{
 }
