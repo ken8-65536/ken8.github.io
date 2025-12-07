@@ -825,10 +825,52 @@ a{
 }
 .searchTag__label{
 	display: flex;
+	position: relative;
+    padding-left: 12px;
 }
 .searchTag__inputCheckbox{
+	-webkit-appearance: none;
+    border-radius: 0;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: inherit;
+    letter-spacing: inherit;
+    outline: none;
 	margin-right: var(--result-04);
 }
 .searchTag__text{
 	font-size: calc(3*4px);
+}
+
+
+.searchTag__inputCheckbox:checked + .searchTag__text::before { /* チェックボックスの作成 */
+    content: "";
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #B0AB99;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.searchTag__inputCheckbox:checked + .searchTag__text::after { /* チェックの作成 */
+    content: "";
+    display: block;
+    background: transparent;
+    border-bottom: 2px solid #4d5fc3;
+    border-right: 2px solid #4d5fc3;
+    width: 8px;
+    height: 16px;
+    position: absolute;
+    left: 5px;
+    top: -4px;
+    transform: rotate(42deg);
+    opacity: 0;
+}
+.searchTag__inputCheckbox:checked + .searchTag__text::after {
+    opacity: 1;
 }
