@@ -836,7 +836,6 @@ a{
     font-size: inherit;
     letter-spacing: inherit;
     outline: none;
-	margin-right: var(--result-04);
 }
 .searchTag__text{
 	display: flex;
@@ -847,7 +846,7 @@ a{
 
 .searchTag__inputCheckbox + .searchTag__text{
 	position: relative;
-    padding-left: 12px;
+    padding-left: 16px;
 }
 .searchTag__inputCheckbox + .searchTag__text::before { /* チェックボックスの作成 */
     content: "";
