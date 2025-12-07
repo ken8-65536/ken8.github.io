@@ -906,5 +906,6 @@ a{
 	background: var(--color-link);
 }
 .searchButton__button--reset{
+	color: var(--color-3);
 	background: var(--color-fa);
 }
