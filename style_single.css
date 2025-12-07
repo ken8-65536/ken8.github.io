@@ -796,7 +796,7 @@ a{
 }
 .searchTag__50onListElement{
 	position: relative;
-	min-width: calc(33.3% - 3.3px);
+	min-width: calc(50% - 8px);
 }
 .searchTag__50onListElement:not(:last-child)::after{
 	position: absolute;
