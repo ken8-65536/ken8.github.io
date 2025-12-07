@@ -920,6 +920,10 @@ a{
 .searchResult{
 }
 .searchResult__frame{
+	padding: 16px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background: #fff;
 }
 .searchResult__box{
 	display: flex;
