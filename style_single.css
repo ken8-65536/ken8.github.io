@@ -839,6 +839,9 @@ a{
 	margin-right: var(--result-04);
 }
 .searchTag__text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: calc(3*4px);
 }
 
