@@ -750,6 +750,9 @@ a{
     border-radius: 4px;
 	overflow: hidden;
 }
+.searchWord__label{
+	width: 100%;
+}
 .searchWord__input{
 	width: 100%;
     height: var(--result-40);
