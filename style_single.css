@@ -827,6 +827,7 @@ a{
 	display: flex;
 }
 .searchTag__inputCheckbox{
+	margin-right: var(--result-04);
 }
 .searchTag__text{
 	font-size: calc(3*4px);
