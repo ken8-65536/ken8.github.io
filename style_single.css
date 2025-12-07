@@ -922,8 +922,10 @@ a{
 .searchResult__frame{
 }
 .searchResult__box{
+	display: flex;
 }
 .searchResult__box--word{
+	margin-bottom: var(--result-08);
 }
 .searchResult__box--tag{
 }
@@ -936,6 +938,7 @@ a{
 .searchResult__tag{
 }
 .searchResult__tagList{
+	display: flex;
 }
 .searchResult__tagListElement{
 }
