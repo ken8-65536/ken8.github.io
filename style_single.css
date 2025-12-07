@@ -930,9 +930,13 @@ a{
 .searchResult__box--tag{
 }
 .searchResult__title{
-	width: 33.3%;
+	width: 96px;
+	margin-right: 4px;
 }
 .searchResult__glue{
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
 }
 .searchResult__word{
 }
