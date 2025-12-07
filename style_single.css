@@ -825,8 +825,6 @@ a{
 }
 .searchTag__label{
 	display: flex;
-	position: relative;
-    padding-left: 12px;
 }
 .searchTag__inputCheckbox{
 	-webkit-appearance: none;
@@ -844,7 +842,10 @@ a{
 	font-size: calc(3*4px);
 }
 
-
+.searchTag__inputCheckbox:checked + .searchTag__text{
+	position: relative;
+    padding-left: 12px;
+}
 .searchTag__inputCheckbox:checked + .searchTag__text::before { /* チェックボックスの作成 */
     content: "";
     background: #fff;
