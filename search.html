@@ -23,11 +23,12 @@
   </div>
 <!--search-window_area-->
   <div class="searchWindow">
+<!--search-word_area-->
     <div class="searchWord">
       <div class="searchWord__frame">
         <form class="searchWord__form" action="#">
           <label class="searchWord__label">
-            <input class="searchWord__input" type="text" placeholder="キーワードを入力">
+            <input class="searchWord__inputText" type="text" placeholder="キーワードを入力">
           </label>
           <button class="searchWord__button" type="button" aria-label="検索"></button>
         </form>
@@ -38,10 +39,41 @@
         </div>
       </div>
     </div>
-    <div class="searchGenre">
-      <div class="searchGenre__frame">
+<!--/search-word_area-->
+<!--search-tag_area-->
+    <div class="searchTag">
+      <div class="searchTag__frame func__sliderScroll">
+        <ul class="searchTag__50onList">
+          <li class="searchTag__50onListElement">
+            <div class="searchTag__50onListTitle">
+              あ行
+            </div>
+            <div class="searchTag__listFrame">
+              <ul class="searchTag__list">
+                <li class="searchTag__listElement">
+                  <label class="searchTag__label">
+                    <input class="searchTag__inputCheckbox" type="checkbox" name="" value="">
+                    <span class="searchTag__text">アクション</span>
+                  </label>
+                </li>
+                <li class="searchTag__listElement">
+                  <label class="searchTag__label">
+                    <input class="searchTag__inputCheckbox" type="checkbox" name="" value="">
+                    <span class="searchTag__text">異世界</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="bottomSmallTitle">
+        <div class="bottomSmallTitle__text">
+          ジャンル選択
+        </div>
       </div>
     </div>
+<!--/search-tag_area-->
   </div>
 <!--/search-window_area-->
 </section>

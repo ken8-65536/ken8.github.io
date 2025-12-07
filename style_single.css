@@ -739,6 +739,7 @@ a{
 }
 /*--フリーワード検索--*/
 .searchWord{
+	margin-bottom: var(--result-32);
 }
 .searchWord__frame{
 	margin-bottom: var(--result-08);
@@ -754,7 +755,7 @@ a{
 .searchWord__label{
 	width: 100%;
 }
-.searchWord__input{
+.searchWord__inputText{
 	width: 100%;
     height: var(--result-40);
     padding: 4px 16px;
@@ -763,7 +764,7 @@ a{
     font-size: 16px;
     outline: none;
 }
-.searchWord__input::placeholder {
+.searchWord__inputText::placeholder {
     color: var(--color-6);
 }
 .searchWord__button{
@@ -782,4 +783,51 @@ a{
     background-image: url(./img/icon_search.svg);
     background-repeat: no-repeat;
     content: '';
+}
+/*--ジャンル選択--*/
+.searchTag{
+}
+.searchTag__frame{/*--スクロール機能あり--*/
+	margin-bottom: calc(2*4px);
+}
+.infoTag__50onList{
+	display: flex;
+	width: 100%;
+}
+.searchTag__50onListElement{
+	position: relative;
+	min-width: calc(33.3% - 3.3px);
+}
+.searchTag__50onListElement:not(:last-child)::after{
+	position: absolute;
+	top: 4px;
+	left: 100%;
+	content: "";
+	width: 1px;
+	height: calc(100% - 8px);
+	background: #eee;
+}
+.searchTag__50onListTitle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: calc(3*4px);
+	font-size: calc(5*4px);
+	color: #555;
+}
+.searchTag__listFrame{
+	padding: 0 calc(2*4px);
+}
+.searchTag__list{
+	min-height: calc(18*4px);
+}
+.searchTag__listElement{
+	margin-bottom: calc(2*4px);
+}
+.searchTag__label{
+}
+.searchTag__inputCheckbox{
+}
+.searchTag__text{
+	font-size: calc(3*4px);
 }
