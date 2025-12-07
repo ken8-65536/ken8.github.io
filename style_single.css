@@ -52,7 +52,7 @@ li{
 		1-1.定義
 		1-2.機能(func)
 		1-3.block
-	2.single共通
+	2.single
 		2-1.共通
 		2-2.インフォメーション(info)
 		2-3.感想(impression)
@@ -60,6 +60,9 @@ li{
 		2-5.年表(chronicle)(上位カテゴリのみ)
 		2-6.関連(related)
 		2-7.目次・索引
+	3.search,archive
+		3-1.共通
+		3-2.検索(search)
 
 ------------------------- */
 /* -------------------------
@@ -154,7 +157,7 @@ a{
 	color: #777;
 }
 /* -------------------------
-	2.single共通
+	2.single
 ------------------------- */
 /*	2-1.共通
 ------------------------- */
@@ -714,4 +717,17 @@ a{
 	width: calc(12*4px);
 	margin-left: calc(9*4px);
 	margin-right: 0;
+}
+/* -------------------------
+	3.search,archive
+------------------------- */
+/*	3-1.共通
+------------------------- */
+.sectionArchive{
+	margin-bottom: var(--result-32);
+	padding: 0 var(--result-16);
+}
+/*--見出し--*/
+.sectionTitleArchive{
+	margin-bottom: calc(8*4px);
 }
