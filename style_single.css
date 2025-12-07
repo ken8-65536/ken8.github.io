@@ -944,6 +944,8 @@ a{
 }
 .searchResult__tagList{
 	display: flex;
+	column-gap: 8px;
+	row-gap: 8px;
 }
 .searchResult__tagListElement{
 }
