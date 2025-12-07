@@ -735,9 +735,9 @@ a{
 /*	3-2.検索(search)
 ------------------------- */
 .sectionArchive--search{
-	margin-bottom: var(--result-64);
+	margin-bottom: var(--result-32);
 	padding: 0;
-	padding-bottom: var(--result-64);
+	padding-bottom: var(--result-32);
 }
 .sectionArchive--search:last-child{
 	margin-bottom: var(--result-32);
