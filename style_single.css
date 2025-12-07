@@ -790,7 +790,7 @@ a{
 }
 /*--ジャンル選択--*/
 .searchTag{
-	margin-bottom: var(--result-32);
+	margin-bottom: var(--result-16);
 }
 .searchTag__frame{/*--スクロール機能あり--*/
 	margin-bottom: calc(2*4px);
