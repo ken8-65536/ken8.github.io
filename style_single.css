@@ -736,6 +736,10 @@ a{
 ------------------------- */
 /*--検索ウィンドウ--*/
 .searchWindow{
+	padding: 16px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background: #fff;
 }
 /*--フリーワード検索--*/
 .searchWord{
