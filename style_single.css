@@ -736,6 +736,7 @@ a{
 ------------------------- */
 /*--検索ウィンドウ--*/
 .searchWindow{
+	margin-bottom: var(--result-64);
 	padding: 16px;
     border: 1px solid #999;
     border-radius: 4px;
@@ -914,4 +915,29 @@ a{
 .searchButton__button--reset{
 	color: var(--color-3);
 	background: var(--color-fa);
+}
+/*--検索結果--*/
+.searchResult{
+}
+.searchResult__frame{
+}
+.searchResult__box{
+}
+.searchResult__box--word{
+}
+.searchResult__box--tag{
+}
+.searchResult__title{
+}
+.searchResult__glue{
+}
+.searchResult__word{
+}
+.searchResult__tag{
+}
+.searchResult__tagList{
+}
+.searchResult__tagListElement{
+}
+.searchResult__tagListLink{
 }
