@@ -945,9 +945,14 @@ a{
 	height: 16px;
 	margin-right: 4px;
 }
+.searchResult__word,
+.searchResult__tag{
+	width: calc(100% - 112px);
+}
 .searchResult__word{
 }
 .searchResult__tag{
+	width: calc(100% - 112px);
 }
 .searchResult__tagList{
 	display: flex;
