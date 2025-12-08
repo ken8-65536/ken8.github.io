@@ -1014,6 +1014,7 @@ a{
 }
 .sort__frame{
 	display: flex;
+	justify-content: flex-end;
 }
 /*--件数表示--*/
 .sortCounter{
@@ -1035,7 +1036,6 @@ a{
 }
 .sortFilter__frame{
 	display: flex;
-	justify-content: flex-end;
 }
 /*--表示数--*/
 .sortFilterDisplay{
