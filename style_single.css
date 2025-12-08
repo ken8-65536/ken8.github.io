@@ -1024,7 +1024,7 @@ a{
 	padding-bottom: 8px;
 }
 .sortCounter .textIconButton__frame{
-	font-size: var(--result-36);
+	font-size: var(--result-32);
 	font-weight: var(--f-weight-bold);
 	color: var(--color-9);
 }
