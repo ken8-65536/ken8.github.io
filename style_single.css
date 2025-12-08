@@ -1127,7 +1127,10 @@ a{
 	height: 1px;
 	background: var(--color-b);
 }
-
+.articleList__element:nth-child(2) .articleList__elementFrame{
+	width: 0;
+	height: 0;
+}
 
 .infoLinks__listElement{
 	position: relative;
