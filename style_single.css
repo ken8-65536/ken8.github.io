@@ -1032,6 +1032,7 @@ a{
 .sortFilterSortingCondition{
 }
 .sortFilterSortingCondition__icon{
+	margin-bottom: var(--result-04);
 }
 .sortFilterSortingCondition__iconImage{
 }
