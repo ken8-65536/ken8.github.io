@@ -1174,7 +1174,7 @@ a{
 	background: var(--color-f);
 }
 .pagenation__icon .textIconButton{
-	column-gap: 0;
+	row-gap: 0;
 }
 .pagenation__icon .textIconButton__frame--image{
 	height: 20px;
