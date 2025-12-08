@@ -1081,17 +1081,17 @@ a{
 }
 .articleList__element{
 	width: calc(50% - 16px);
-	padding-top: 16px;
 }
 .articleList__element:nth-child(even){
 	width: 50%;
 	padding-left: 16px;
 }
-.articleList__element:nth-child(1),
-.articleList__element:nth-child(2){
-	padding-top: 0;
-}
 .articleList__elementFrame{
+	padding-top: 16px;
+}
+.articleList__elementFrame:nth-child(1),
+.articleList__elementFrame:nth-child(2){
+	padding-top: 0;
 }
 .articleList__linkFrame{
 }
