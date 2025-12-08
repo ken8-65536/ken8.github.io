@@ -988,6 +988,7 @@ a{
 .sortCounter{
 }
 .sortCounter__frame{
+	display: flex;
 	width: 50%;
 }
 .sortCounter__number{
