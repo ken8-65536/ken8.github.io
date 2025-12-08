@@ -1016,7 +1016,7 @@ a{
 }
 /*--件数表示--*/
 .sortCounter{
-	width: 50%;
+	width: 40%;
 }
 .sortCounter__frame{
 	display: flex;
@@ -1031,7 +1031,7 @@ a{
 }
 /*--フィルター--*/
 .sortFilter{
-	width: 50%;
+	width: 60%;
 }
 .sortFilter__frame{
 	display: flex;
