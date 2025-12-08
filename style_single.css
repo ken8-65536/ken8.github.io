@@ -1035,6 +1035,8 @@ a{
 /*--表示数--*/
 .sortFilterDisplay{
 	margin-right: 8px;
+}
+.sortFilterDisplay .textIconButton{
 	padding: 8px;
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
@@ -1049,6 +1051,8 @@ a{
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
 	background: var(--color-f);
+}
+.sortFilterSorting__frame .textIconButton{
 }
 .sortFilterSorting__frame .textIconButton:not(:last-child){
 	position: relative;
