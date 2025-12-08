@@ -1080,6 +1080,7 @@ a{
 	width: 100%;
 }
 .articleList__element{
+	position: relative;
 	width: calc(50% - 16px);
 }
 .articleList__element:nth-child(even){
@@ -1106,6 +1107,17 @@ a{
 }
 .articleList__text{
 }
+/*--各border処理--*/
+.articleList__element:nth-child(even)::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 1px;
+	height: 100%;
+	background: #eee;
+}
+
 
 
 .infoLinks__listElement{
