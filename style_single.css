@@ -1078,6 +1078,7 @@ a{
 	flex-wrap: wrap;
 	gap: 16px;
 	width: 100%;
+	color: var(--color-3);
 }
 .articleList__element{
 	position: relative;
