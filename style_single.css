@@ -18,12 +18,13 @@ button,input,select,textarea{
 	padding: 0;
 }
 html{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	line-height: 1;
 	font-size: 62.5%;
 }
 *,*:before,*:after{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+	box-sizing: inherit;
 }
 iframe{
 	border: 0;
