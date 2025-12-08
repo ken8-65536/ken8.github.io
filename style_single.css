@@ -1160,6 +1160,11 @@ a{
 	display: flex;
 	justify-content: space-between;
 }
+.pagenationBack,
+.pagenationAhead{
+	display: flex;
+	column-gap: 8px;
+}
 .pagenationBack{
 }
 .pagenationAhead{
