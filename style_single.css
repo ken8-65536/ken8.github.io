@@ -1100,6 +1100,7 @@ a{
 .articleList__link{
 }
 .articleList__imageFrame{
+	margin-bottom: 8px;
 }
 .articleList__image{
 	width: 100%;
@@ -1107,6 +1108,7 @@ a{
 .articleList__textFrame{
 }
 .articleList__text{
+	line-height: 1.25;
 }
 /*--各border処理--*/
 .articleList__element:nth-child(odd) .articleList__elementFrame::after{
