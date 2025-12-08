@@ -1166,8 +1166,8 @@ a{
 .pagenation__link{
 }
 .pagenation__icon{
-	width: 56px;
-	height: 56px;
+	width: 48px;
+	height: 48px;
 	padding: 8px;
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
@@ -1176,7 +1176,12 @@ a{
 .pagenation__icon .textIconButton{
 	column-gap: 0;
 }
-
+.pagenation__icon .textIconButton__frame--image{
+	height: 20px;
+}
+.pagenation__icon .textIconButton__image{
+	height: 100%;
+}
 
 .pagenationCount{
 	display: flex;
