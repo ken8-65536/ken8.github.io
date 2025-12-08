@@ -179,6 +179,7 @@ a{
 	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
 }
 .textIconButton__image{
+	height: 100%;
 }
 /*--縦線横線*/
 .borderVertical{
@@ -1179,10 +1180,6 @@ a{
 .pagenation__icon .textIconButton__frame--image{
 	height: 20px;
 }
-.pagenation__icon .textIconButton__image{
-	height: 100%;
-}
-
 .pagenationCount{
 	display: flex;
     align-items: center;
