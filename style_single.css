@@ -1097,6 +1097,7 @@ a{
 	padding-top: 0;
 }
 .articleList__linkFrame{
+	padding: 16px;
 }
 .articleList__link{
 }
