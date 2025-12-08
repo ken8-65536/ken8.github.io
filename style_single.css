@@ -1184,4 +1184,6 @@ a{
 
 
 .pagenationCount{
+	display: flex;
+    align-items: center;
 }
