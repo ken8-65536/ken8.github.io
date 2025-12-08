@@ -1120,7 +1120,7 @@ a{
 	content: "";
 	width: 100%;
 	height: 1px;
-	background: var(--color-b);
+	background: var(--color-9);
 }
 .articleList__element:nth-child(1) .articleList__elementFrame::after{
 	width: 0;
@@ -1133,7 +1133,7 @@ a{
 	content: "";
 	width: 1px;
 	height: calc(100% - 16px);
-	background: var(--color-b);
+	background: var(--color-9);
 }
 .articleList__element:nth-child(even) .articleList__elementFrame::after{
 	position: absolute;
@@ -1142,7 +1142,7 @@ a{
 	content: "";
 	width: 100%;
 	height: 1px;
-	background: var(--color-b);
+	background: var(--color-9);
 }
 .articleList__element:nth-child(2)::after{
 	top: 0;
