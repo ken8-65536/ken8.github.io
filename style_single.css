@@ -1019,11 +1019,11 @@ a{
 }
 /*--件数表示--*/
 .sortCounter{
-}
-.sortCounter__frame{
 	display: flex;
+	align-items: flex-end;
+	padding-bottom: 8px;
 }
-.sortCounter__frame .textIconButton__frame{
+.sortCounter .textIconButton__frame{
 	font-size: var(--result-40);
 	font-weight: var(--f-weight-bold);
 	color: var(--color-9);
