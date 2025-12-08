@@ -1075,11 +1075,12 @@ a{
 /*--記事一覧--*/
 .articleList{
 	display: flex;
+	flex-wrap: wrap;
 	gap: 16px;
 	width: 100%;
 }
 .articleList__element{
-	width: 50%;
+	width: calc(50% - 16px);
 }
 .articleList__elementFrame{
 	padding-bottom: 16px;
