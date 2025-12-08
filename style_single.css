@@ -1012,6 +1012,7 @@ a{
 }
 /*--ソート機能--*/
 .sort{
+	margin-bottom: var(--result-16);
 }
 .sort__frame{
 	display: flex;
@@ -1038,13 +1039,13 @@ a{
 }
 /*--表示数--*/
 .sortFilterDisplay{
+	width: 56px;
+	height: 56px;
 	margin-right: 8px;
 	padding: 8px;
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
 	background: var(--color-f);
-	width: 56px;
-	height: 56px;
 }
 .sortFilterDisplay .textIconButton{
 	width: 40px;
@@ -1055,12 +1056,12 @@ a{
 }
 .sortFilterSorting__frame{
 	display: flex;
+	width: 113px;
+	height: 56px;
 	padding: 8px;
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
 	background: var(--color-f);
-	width: 113px;
-	height: 56px;
 }
 .sortFilterSorting__frame .textIconButton{
 	width: 40px;
