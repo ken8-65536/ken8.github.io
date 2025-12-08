@@ -1024,9 +1024,12 @@ a{
 	padding-bottom: 8px;
 }
 .sortCounter .textIconButton__frame{
-	font-size: var(--result-40);
+	font-size: var(--result-36);
 	font-weight: var(--f-weight-bold);
 	color: var(--color-9);
+}
+.sortCounter .textIconButton__frame--text{
+	height: 36px;
 }
 /*--フィルター--*/
 .sortFilter{
