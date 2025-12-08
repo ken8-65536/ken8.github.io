@@ -1023,13 +1023,10 @@ a{
 .sortCounter__frame{
 	display: flex;
 }
-.sortCounter__number{
+.sortCounter__frame .textIconButton__frame{
 	font-size: var(--result-40);
 	font-weight: var(--f-weight-bold);
 	color: var(--color-9);
-}
-.sortCounter__text{
-	font-size: var(--result-20);
 }
 /*--フィルター--*/
 .sortFilter{
