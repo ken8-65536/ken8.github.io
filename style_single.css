@@ -1024,14 +1024,14 @@ a{
 	flex-direction: column;
     justify-content: center;
     align-items: center;
+	row-gap: var(--result-04);
 	width: 40px;
 	height: 40px;
 }
 .textIconButton__frame{
-	margin-bottom: var(--result-04);
 }
 .textIconButton__frame--text{
-	font-size: var(--result-20);
+	font-size: var(--result-24);
 }
 .textIconButton__frame--image{
 	height: 24px;
