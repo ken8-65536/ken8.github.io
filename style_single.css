@@ -1089,8 +1089,8 @@ a{
 .articleList__elementFrame{
 	padding-top: 16px;
 }
-.articleList__elementFrame:nth-child(1),
-.articleList__elementFrame:nth-child(2){
+.articleList__element:nth-child(1) .articleList__elementFrame,
+.articleList__element:nth-child(2) .articleList__elementFrame{
 	padding-top: 0;
 }
 .articleList__linkFrame{
