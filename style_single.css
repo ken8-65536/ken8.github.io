@@ -1191,6 +1191,7 @@ a{
 	justify-content: space-between;
 }
 .pagenationCount__numberElement{
+	font-size: var(--result-20);
 }
 .pagenationCount__numberElement--left{
 }
