@@ -1011,7 +1011,7 @@ a{
 /*--表示数--*/
 .sortFilterDisplay{
 	margin-right: 8px;
-	padding: 4px;
+	padding: 8px;
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
 	background: var(--color-f);
@@ -1021,14 +1021,28 @@ a{
 }
 .sortFilterSorting__frame{
 	display: flex;
-	padding: 4px;
+	padding: 8px;
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
 	background: var(--color-f);
 }
 .sortFilterSorting__frame .textIconButton:not(:last-child){
-	margin-right: 8px;
+	position: relative;
 }
+.sortFilterSorting__frame .textIconButton:not(:last-child)::after{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #eee;
+}
+
+
+
+
+
 .textIconButton{
 	display: flex;
 	flex-direction: column;
