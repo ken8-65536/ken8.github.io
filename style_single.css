@@ -1007,6 +1007,8 @@ a{
 }
 /*--表示数--*/
 .sortFilterDisplay{
+	width: 40px;
+	height: 40px;
 }
 .sortFilterDisplay__frame{
 }
@@ -1014,3 +1016,15 @@ a{
 	font-size: var(--result-20);
 }
 /*--並べ替え--*/
+.sortFilterSorting{
+	width: 80px;
+	height: 40px;
+}
+.sortFilterSorting__frame{
+}
+.sortFilterSortingCondition{
+}
+.sortFilterSortingCondition__icon{
+}
+.sortFilterSortingCondition__iconImage{
+}
