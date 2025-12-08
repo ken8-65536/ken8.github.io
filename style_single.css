@@ -1109,6 +1109,19 @@ a{
 .articleList__text{
 }
 /*--各border処理--*/
+.articleList__element:nth-child(odd) .articleList__elementFrame::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: var(--color-b);
+}
+.articleList__element:nth-child(1) .articleList__elementFrame{
+	width: 0;
+	height: 0;
+}
 .articleList__element:nth-child(even)::after{
 	position: absolute;
 	top: 0;
@@ -1130,21 +1143,4 @@ a{
 .articleList__element:nth-child(2) .articleList__elementFrame{
 	width: 0;
 	height: 0;
-}
-
-.infoLinks__listElement{
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0 calc(2*4px);
-}
-.infoLinks__listElement:not(:last-child)::after{
-	position: absolute;
-	top: 4px;
-	left: 100%;
-	content: "";
-	width: 1px;
-	height: calc(100% - 8px);
-	background: #eee;
 }
