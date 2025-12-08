@@ -1057,7 +1057,7 @@ a{
 .textIconButton__frame{
 }
 .textIconButton__frame--text{
-	font-size: var(--result-24);
+	font-size: var(--result-20);
 	color: var(--color-6);
 }
 .textIconButton__frame--image{
