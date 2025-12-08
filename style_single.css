@@ -1033,6 +1033,7 @@ a{
 	font-size: var(--result-20);
 }
 .textIconButton__frame--image{
+	height: 24px;
 }
 .textIconButton__image{
 }
