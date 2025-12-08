@@ -820,6 +820,87 @@ a{
 .sortFilterSorting .borderVertical{
 	margin: 0 var(--result-08);
 }
+/*--記事一覧--*/
+.articleList{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	width: 100%;
+	font-size: var(--result-12);
+}
+.articleList__element{
+	position: relative;
+	width: calc(50% - 16px);
+}
+.articleList__element:nth-child(even){
+	width: 50%;
+	padding-left: 16px;
+}
+.articleList__elementFrame{
+	position: relative;
+	padding-top: 16px;
+}
+.articleList__element:nth-child(1) .articleList__elementFrame,
+.articleList__element:nth-child(2) .articleList__elementFrame{
+	padding-top: 0;
+}
+.articleList__linkFrame{
+}
+.articleList__link{
+	padding: 16px;
+}
+.articleList__imageFrame{
+	margin-bottom: 8px;
+}
+.articleList__image{
+	width: 100%;
+}
+.articleList__textFrame{
+}
+.articleList__text{
+	line-height: 1.25;
+	color: var(--color-3);
+}
+/*--各border処理--*/
+.articleList__element:nth-child(odd) .articleList__elementFrame::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: var(--color-9);
+}
+.articleList__element:nth-child(1) .articleList__elementFrame::after{
+	width: 0;
+	height: 0;
+}
+.articleList__element:nth-child(even)::after{
+	position: absolute;
+	top: 16px;
+	left: 0;
+	content: "";
+	width: 1px;
+	height: calc(100% - 16px);
+	background: var(--color-9);
+}
+.articleList__element:nth-child(even) .articleList__elementFrame::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: var(--color-9);
+}
+.articleList__element:nth-child(2)::after{
+	top: 0;
+	height: 100%;
+}
+.articleList__element:nth-child(2) .articleList__elementFrame::after{
+	width: 0;
+	height: 0;
+}
 /*	3-2.検索(search)
 ------------------------- */
 .sectionArchive--search{
@@ -1072,84 +1153,30 @@ a{
 /*--記事一覧--*/
 .searchArticle{
 }
-/*--記事一覧--*/
-.articleList{
+/*--ページネーション--*/
+.pagenation{
+}
+.pagenation__frame{
 	display: flex;
-	flex-wrap: wrap;
-	gap: 16px;
-	width: 100%;
-	font-size: var(--result-12);
+	justify-content: space-between;
 }
-.articleList__element{
-	position: relative;
-	width: calc(50% - 16px);
+.pagenationBack{
 }
-.articleList__element:nth-child(even){
-	width: 50%;
-	padding-left: 16px;
+.pagenationAhead{
 }
-.articleList__elementFrame{
-	position: relative;
-	padding-top: 16px;
+.pagenation__icon{
+	width: 56px;
+	height: 56px;
+	padding: 8px;
+	border: 1px solid var(--color-d);
+	border-radius: 4px;
+	background: var(--color-f);
 }
-.articleList__element:nth-child(1) .articleList__elementFrame,
-.articleList__element:nth-child(2) .articleList__elementFrame{
-	padding-top: 0;
+.pagenation__icon .textIconButton{
+	width: 40px;
+	height: 40px;
 }
-.articleList__linkFrame{
-}
-.articleList__link{
-	padding: 16px;
-}
-.articleList__imageFrame{
-	margin-bottom: 8px;
-}
-.articleList__image{
-	width: 100%;
-}
-.articleList__textFrame{
-}
-.articleList__text{
-	line-height: 1.25;
-	color: var(--color-3);
-}
-/*--各border処理--*/
-.articleList__element:nth-child(odd) .articleList__elementFrame::after{
-	position: absolute;
-	top: 0;
-	left: 0;
-	content: "";
-	width: 100%;
-	height: 1px;
-	background: var(--color-9);
-}
-.articleList__element:nth-child(1) .articleList__elementFrame::after{
-	width: 0;
-	height: 0;
-}
-.articleList__element:nth-child(even)::after{
-	position: absolute;
-	top: 16px;
-	left: 0;
-	content: "";
-	width: 1px;
-	height: calc(100% - 16px);
-	background: var(--color-9);
-}
-.articleList__element:nth-child(even) .articleList__elementFrame::after{
-	position: absolute;
-	top: 0;
-	left: 0;
-	content: "";
-	width: 100%;
-	height: 1px;
-	background: var(--color-9);
-}
-.articleList__element:nth-child(2)::after{
-	top: 0;
-	height: 100%;
-}
-.articleList__element:nth-child(2) .articleList__elementFrame::after{
-	width: 0;
-	height: 0;
+
+
+.pagenationCount{
 }
