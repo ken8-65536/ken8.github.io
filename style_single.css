@@ -992,6 +992,7 @@ a{
 }
 .sortCounter__frame{
 	display: flex;
+	justify-content: center;
 }
 .sortCounter__number{
 	font-size: var(--result-40);
@@ -1010,12 +1011,14 @@ a{
 }
 /*--表示数--*/
 .sortFilterDisplay{
+	display: flex;
 	width: 40px;
 	height: 40px;
 }
 .sortFilterDisplay__frame{
 }
 .sortFilterDisplay__number{
+	margin-bottom: var(--result-04);
 	font-size: var(--result-20);
 }
 /*--並べ替え--*/
