@@ -1028,6 +1028,8 @@ a{
 }
 .sortFilterSorting__frame .textIconButton:not(:last-child){
 	position: relative;
+	padding-right: 8px;
+	margin-right: 8px;
 }
 .sortFilterSorting__frame .textIconButton:not(:last-child)::after{
 	position: absolute;
