@@ -1054,18 +1054,13 @@ a{
 }
 .sortFilterSorting__frame .textIconButton{
 }
-.sortFilterSorting__frame .textIconButton:not(:last-child){
-	position: relative;
-	padding-right: 8px;
-	margin-right: 8px;
-	width: 48px;
-}
-.sortFilterSorting__frame .textIconButton:not(:last-child)::after{
-	position: absolute;
-	top: 0;
-	left: 100%;
+.borderVertical{
 	content: "";
 	width: 1px;
 	height: 100%;
-	background: #eee;
+	background: var(--color-d);
+}
+
+.sortFilterSorting .borderVertical{
+	margin: 0 var(--result-08);
 }
