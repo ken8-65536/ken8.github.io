@@ -165,8 +165,6 @@ a{
     justify-content: flex-end;
     align-items: center;
 	row-gap: var(--result-04);
-	width: 40px;
-	height: 40px;
 }
 .textIconButton__frame{
 }
@@ -179,6 +177,13 @@ a{
 	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
 }
 .textIconButton__image{
+}
+/*--縦線横線*/
+.borderVertical{
+	content: "";
+	width: 1px;
+	height: 100%;
+	background: var(--color-d);
 }
 /* -------------------------
 	2.single
@@ -1039,8 +1044,11 @@ a{
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
 	background: var(--color-f);
+	width: 56px;
+	height: 56px;
 }
 .sortFilterDisplay .textIconButton{
+
 }
 /*--並べ替え--*/
 .sortFilterSorting{
@@ -1053,12 +1061,6 @@ a{
 	background: var(--color-f);
 }
 .sortFilterSorting__frame .textIconButton{
-}
-.borderVertical{
-	content: "";
-	width: 1px;
-	height: 100%;
-	background: var(--color-d);
 }
 
 .sortFilterSorting .borderVertical{
