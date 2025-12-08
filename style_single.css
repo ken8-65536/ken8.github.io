@@ -1074,8 +1074,9 @@ a{
 }
 /*--記事一覧--*/
 .articleList{
-	display: grid;
+	display: flex;
 	gap: 16px;
+	width: 100%;
 }
 .articleList__element{
 	width: 50%;
