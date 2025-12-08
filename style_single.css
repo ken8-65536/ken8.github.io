@@ -1088,6 +1088,7 @@ a{
 	padding-left: 16px;
 }
 .articleList__elementFrame{
+	position: relative;
 	padding-top: 16px;
 }
 .articleList__element:nth-child(1) .articleList__elementFrame,
@@ -1115,9 +1116,17 @@ a{
 	content: "";
 	width: 1px;
 	height: 100%;
-	background: #eee;
+	background: var(--color-b);
 }
-
+.articleList__element:nth-child(even) .articleList__elementFrame::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: var(--color-b);
+}
 
 
 .infoLinks__listElement{
