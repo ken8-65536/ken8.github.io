@@ -996,6 +996,7 @@ a{
 .sortCounter__number{
 	font-size: var(--result-40);
 	font-weight: var(--f-weight-bold);
+	color: var(--color-9);
 }
 .sortCounter__text{
 	font-size: var(--result-20);
