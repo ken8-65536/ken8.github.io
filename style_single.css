@@ -798,10 +798,6 @@ a{
 	border-radius: 4px;
 	background: var(--color-f);
 }
-.sortFilterDisplay .textIconButton{
-	width: 40px;
-	height: 40px;
-}
 /*--並べ替え--*/
 .sortFilterSorting{
 }
@@ -815,7 +811,7 @@ a{
 	background: var(--color-f);
 }
 .sortFilterSorting__frame .textIconButton{
-	width: 40px;
+    width: 40px;
 }
 .sortFilterSorting .borderVertical{
 	margin: 0 var(--result-08);
@@ -1178,8 +1174,6 @@ a{
 	background: var(--color-f);
 }
 .pagenation__icon .textIconButton{
-	width: 40px;
-	height: 40px;
 }
 
 
