@@ -1184,3 +1184,19 @@ a{
 	display: flex;
     align-items: center;
 }
+.pagenationCount__frame{
+}
+.pagenationCount__number{
+	display: flex;
+	justify-content: space-between;
+}
+.pagenationCount__numberElement{
+}
+.pagenationCount__numberElement--left{
+}
+.pagenationCount__numberElement--center{
+}
+.pagenationCount__numberElement--right{
+}
+.pagenationCount__select{
+}
