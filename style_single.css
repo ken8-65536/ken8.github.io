@@ -1128,7 +1128,7 @@ a{
 	left: 0;
 	content: "";
 	width: 1px;
-	height: 100%;
+	height: calc(100% - 16px);
 	background: var(--color-b);
 }
 .articleList__element:nth-child(even) .articleList__elementFrame::after{
