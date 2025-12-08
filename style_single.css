@@ -761,6 +761,65 @@ a{
 .sectionTitle--archive{
 	margin-bottom: calc(8*4px);
 }
+/*--ソート機能--*/
+.sort{
+	margin-bottom: var(--result-16);
+}
+.sort__frame{
+	display: flex;
+	justify-content: space-between;
+}
+/*--件数表示--*/
+.sortCounter{
+	display: flex;
+	align-items: center
+}
+.sortCounter .textIconButton__frame{
+	font-size: var(--result-32);
+	font-weight: var(--f-weight-bold);
+	color: var(--color-9);
+}
+.sortCounter .textIconButton__frame--text{
+	height: 32px;
+}
+/*--フィルター--*/
+.sortFilter{
+}
+.sortFilter__frame{
+	display: flex;
+}
+/*--表示数--*/
+.sortFilterDisplay{
+	width: 56px;
+	height: 56px;
+	margin-right: 8px;
+	padding: 8px;
+	border: 1px solid var(--color-d);
+	border-radius: 4px;
+	background: var(--color-f);
+}
+.sortFilterDisplay .textIconButton{
+	width: 40px;
+	height: 40px;
+}
+/*--並べ替え--*/
+.sortFilterSorting{
+}
+.sortFilterSorting__frame{
+	display: flex;
+	width: 113px;
+	height: 56px;
+	padding: 8px;
+	border: 1px solid var(--color-d);
+	border-radius: 4px;
+	background: var(--color-f);
+}
+.sortFilterSorting__frame .textIconButton{
+	width: 40px;
+}
+.sortFilterSorting .borderVertical{
+	margin: 0 var(--result-08);
+}
 /*	3-2.検索(search)
 ------------------------- */
 .sectionArchive--search{
@@ -1010,63 +1069,21 @@ a{
 }
 .searchResult__tagListLink{
 }
-/*--ソート機能--*/
-.sort{
-	margin-bottom: var(--result-16);
+/*--記事一覧--*/
+.searchArticle{
 }
-.sort__frame{
-	display: flex;
-	justify-content: space-between;
+/*--記事一覧--*/
+.articleList{
 }
-/*--件数表示--*/
-.sortCounter{
-	display: flex;
-	align-items: center
+.articleList__element{
 }
-.sortCounter .textIconButton__frame{
-	font-size: var(--result-32);
-	font-weight: var(--f-weight-bold);
-	color: var(--color-9);
+.articleList__elementFrame{
 }
-.sortCounter .textIconButton__frame--text{
-	height: 32px;
+.articleList__imageFrame{
 }
-/*--フィルター--*/
-.sortFilter{
+.articleList__image{
 }
-.sortFilter__frame{
-	display: flex;
+.articleList__textFrame{
 }
-/*--表示数--*/
-.sortFilterDisplay{
-	width: 56px;
-	height: 56px;
-	margin-right: 8px;
-	padding: 8px;
-	border: 1px solid var(--color-d);
-	border-radius: 4px;
-	background: var(--color-f);
-}
-.sortFilterDisplay .textIconButton{
-	width: 40px;
-	height: 40px;
-}
-/*--並べ替え--*/
-.sortFilterSorting{
-}
-.sortFilterSorting__frame{
-	display: flex;
-	width: 113px;
-	height: 56px;
-	padding: 8px;
-	border: 1px solid var(--color-d);
-	border-radius: 4px;
-	background: var(--color-f);
-}
-.sortFilterSorting__frame .textIconButton{
-	width: 40px;
-}
-
-.sortFilterSorting .borderVertical{
-	margin: 0 var(--result-08);
+.articleList__text{
 }
