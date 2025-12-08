@@ -1020,7 +1020,7 @@ a{
 /*--件数表示--*/
 .sortCounter{
 	display: flex;
-	align-items: flex-end;
+	align-items: center
 }
 .sortCounter .textIconButton__frame{
 	font-size: var(--result-32);
