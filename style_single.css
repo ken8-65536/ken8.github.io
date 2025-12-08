@@ -1153,3 +1153,7 @@ a{
 	width: 0;
 	height: 0;
 }
+.articleList__element--empty::after{
+	width: 0;
+	height: 0;
+}
