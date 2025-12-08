@@ -1006,6 +1006,7 @@ a{
 	width: 50%;
 }
 .sortFilter__frame{
+	display: flex;
 }
 /*--表示数--*/
 .sortFilterDisplay{
