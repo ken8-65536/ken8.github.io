@@ -1016,10 +1016,10 @@ a{
 }
 /*--件数表示--*/
 .sortCounter{
-	width: 40%;
 }
 .sortCounter__frame{
 	display: flex;
+	justify-content: space-between;
 }
 .sortCounter__number{
 	font-size: var(--result-40);
@@ -1031,7 +1031,6 @@ a{
 }
 /*--フィルター--*/
 .sortFilter{
-	width: 60%;
 }
 .sortFilter__frame{
 	display: flex;
