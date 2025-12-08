@@ -1035,12 +1035,12 @@ a{
 /*--表示数--*/
 .sortFilterDisplay{
 	margin-right: 8px;
-}
-.sortFilterDisplay .textIconButton{
 	padding: 8px;
 	border: 1px solid var(--color-d);
 	border-radius: 4px;
 	background: var(--color-f);
+}
+.sortFilterDisplay .textIconButton{
 }
 /*--並べ替え--*/
 .sortFilterSorting{
