@@ -1082,6 +1082,10 @@ a{
 .articleList__element{
 	width: calc(50% - 16px);
 }
+.articleList__element:nth-child(even){
+	width: 50%;
+	padding-left: 16px;
+}
 .articleList__elementFrame{
 	padding-bottom: 16px;
 }
