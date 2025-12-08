@@ -169,6 +169,7 @@ a{
 .textIconButton__frame{
 }
 .textIconButton__frame--text{
+	height: 24px;
 	font-size: var(--result-20);
 	color: var(--color-6);
 }
@@ -1047,7 +1048,8 @@ a{
 	height: 56px;
 }
 .sortFilterDisplay .textIconButton{
-
+	width: 40px;
+	height: 40px;
 }
 /*--並べ替え--*/
 .sortFilterSorting{
