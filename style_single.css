@@ -1030,6 +1030,7 @@ a{
 	position: relative;
 	padding-right: 8px;
 	margin-right: 8px;
+	width: 48px;
 }
 .sortFilterSorting__frame .textIconButton:not(:last-child)::after{
 	position: absolute;
