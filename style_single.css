@@ -1165,9 +1165,9 @@ a{
 	display: flex;
 	column-gap: 8px;
 }
-.pagenationBack{
+.pagenation__linkFrame{
 }
-.pagenationAhead{
+.pagenation__link{
 }
 .pagenation__icon{
 	width: 56px;
