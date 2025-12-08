@@ -1189,6 +1189,7 @@ a{
 .pagenationCount__number{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 4px;
 }
 .pagenationCount__numberElement{
 	font-size: var(--result-20);
