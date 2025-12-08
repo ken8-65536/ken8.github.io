@@ -1074,10 +1074,14 @@ a{
 }
 /*--記事一覧--*/
 .articleList{
+	display: grid;
+	gap: 16px;
 }
 .articleList__element{
+	width: 50%;
 }
 .articleList__elementFrame{
+	padding-bottom: 16px;
 }
 .articleList__linkFrame{
 }
@@ -1086,6 +1090,7 @@ a{
 .articleList__imageFrame{
 }
 .articleList__image{
+	width: 100%;
 }
 .articleList__textFrame{
 }
