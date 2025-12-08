@@ -979,3 +979,20 @@ a{
 }
 .searchResult__tagListLink{
 }
+/*--ソート機能--*/
+.sort{
+}
+.sort__frame{
+	display: flex;
+}
+.sortCounter{
+}
+.sortCounter__frame{
+	width: 50%;
+}
+.sortCounter__number{
+	font-size: var(--result-40);
+}
+.sortCounter__text{
+	font-size: var(--result-20);
+}
