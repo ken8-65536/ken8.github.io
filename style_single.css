@@ -1014,14 +1014,13 @@ a{
 }
 .sort__frame{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 /*--件数表示--*/
 .sortCounter{
 }
 .sortCounter__frame{
 	display: flex;
-	justify-content: space-between;
 }
 .sortCounter__number{
 	font-size: var(--result-40);
