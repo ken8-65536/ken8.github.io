@@ -1029,7 +1029,7 @@ a{
 	color: var(--color-9);
 }
 .sortCounter .textIconButton__frame--text{
-	height: 36px;
+	height: 32px;
 }
 /*--フィルター--*/
 .sortFilter{
