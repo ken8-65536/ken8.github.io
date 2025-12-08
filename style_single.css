@@ -1192,6 +1192,9 @@ a{
 	margin-bottom: 4px;
 }
 .pagenationCount__numberElement{
+	display: flex;
+	justify-self: center;
+    align-items: center;
 	font-size: var(--result-20);
 }
 .pagenationCount__numberElement--left{
@@ -1201,4 +1204,5 @@ a{
 .pagenationCount__numberElement--right{
 }
 .pagenationCount__select{
+	height: 20px;
 }
