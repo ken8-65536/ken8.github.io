@@ -934,6 +934,7 @@ a{
 }
 /*--検索結果--*/
 .searchResult{
+	margin-bottom: var(--result-16);
 }
 .searchResult__frame{
 	padding: 16px;
@@ -985,6 +986,7 @@ a{
 .sort__frame{
 	display: flex;
 }
+/*--件数表示--*/
 .sortCounter{
 }
 .sortCounter__frame{
@@ -993,7 +995,22 @@ a{
 }
 .sortCounter__number{
 	font-size: var(--result-40);
+	font-weight: var(--f-weight-bold);
 }
 .sortCounter__text{
 	font-size: var(--result-20);
 }
+/*--フィルター--*/
+.sortFilter{
+}
+.sortFilter__frame{
+}
+/*--表示数--*/
+.sortFilterDisplay{
+}
+.sortFilterDisplay__frame{
+}
+.sortFilterDisplay__number{
+	font-size: var(--result-20);
+}
+/*--並べ替え--*/
