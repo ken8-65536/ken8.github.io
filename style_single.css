@@ -1034,6 +1034,7 @@ a{
 }
 .textIconButton__frame--image{
 	height: 24px;
+	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
 }
 .textIconButton__image{
 }
