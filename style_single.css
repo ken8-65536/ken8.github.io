@@ -1078,7 +1078,6 @@ a{
 	flex-wrap: wrap;
 	gap: 16px;
 	width: 100%;
-	color: var(--color-3);
 	font-size: var(--result-12);
 }
 .articleList__element{
@@ -1111,6 +1110,7 @@ a{
 }
 .articleList__text{
 	line-height: 1.25;
+	color: var(--color-3);
 }
 /*--各border処理--*/
 .articleList__element:nth-child(odd) .articleList__elementFrame::after{
