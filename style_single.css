@@ -162,11 +162,12 @@ a{
 .textIconButton{
 	display: flex;
 	flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
 	row-gap: var(--result-04);
 }
 .textIconButton__frame{
+	display: flex;
+    align-items: flex-end;
 }
 .textIconButton__frame--text{
 	height: 24px;
