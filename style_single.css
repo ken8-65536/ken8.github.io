@@ -991,6 +991,7 @@ a{
 	width: 50%;
 }
 .sortCounter__frame{
+	display: flex;
 }
 .sortCounter__number{
 	font-size: var(--result-40);
