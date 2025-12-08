@@ -157,6 +157,28 @@ a{
 	font-size: calc(3*4px);
 	color: #777;
 }
+/*--アイコンやテキスト付きのボタン--(下に↑の小さい文章あり)*/
+.textIconButton{
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+	row-gap: var(--result-04);
+	width: 40px;
+	height: 40px;
+}
+.textIconButton__frame{
+}
+.textIconButton__frame--text{
+	font-size: var(--result-20);
+	color: var(--color-6);
+}
+.textIconButton__frame--image{
+	height: 24px;
+	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
+}
+.textIconButton__image{
+}
 /* -------------------------
 	2.single
 ------------------------- */
@@ -1041,30 +1063,4 @@ a{
 	width: 1px;
 	height: 100%;
 	background: #eee;
-}
-
-
-
-
-
-.textIconButton{
-	display: flex;
-	flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-	row-gap: var(--result-04);
-	width: 40px;
-	height: 40px;
-}
-.textIconButton__frame{
-}
-.textIconButton__frame--text{
-	font-size: var(--result-20);
-	color: var(--color-6);
-}
-.textIconButton__frame--image{
-	height: 24px;
-	filter: brightness(0) saturate(100%) invert(61%) sepia(0%) saturate(21%) hue-rotate(202deg) brightness(99%) contrast(93%);
-}
-.textIconButton__image{
 }
