@@ -1145,7 +1145,7 @@ a{
 	height: 1px;
 	background: var(--color-9);
 }
-.articleList__element:nth-child(even) .articleList__element--empty::after{
+.articleList__element:nth-child(even).articleList__element--empty::after{
 	width: 0;
 	height: 0;
 }
