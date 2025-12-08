@@ -1021,7 +1021,6 @@ a{
 .sortCounter{
 	display: flex;
 	align-items: flex-end;
-	padding-bottom: 8px;
 }
 .sortCounter .textIconButton__frame{
 	font-size: var(--result-32);
