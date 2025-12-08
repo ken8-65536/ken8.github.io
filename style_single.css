@@ -1023,7 +1023,8 @@ a{
 	display: flex;
     justify-content: center;
     align-items: center;
-	width: 100%;
+	width: 40px;
+	height: 40px;
 }
 .textIconButton__frame{
 	margin-bottom: var(--result-04);
