@@ -1142,6 +1142,7 @@ a{
 }
 .articleList__element:nth-child(2)::after{
 	top: 0;
+	height: 100%;
 }
 .articleList__element:nth-child(2) .articleList__elementFrame::after{
 	width: 0;
