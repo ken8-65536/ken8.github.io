@@ -1010,17 +1010,6 @@ a{
 }
 /*--表示数--*/
 .sortFilterDisplay{
-	display: flex;
-	width: 40px;
-	height: 40px;
-}
-.sortFilterDisplay__frame{
-	display: flex;
-	justify-content: center;
-}
-.sortFilterDisplay__number{
-	margin-bottom: var(--result-04);
-	font-size: var(--result-20);
 }
 /*--並べ替え--*/
 .sortFilterSorting{
@@ -1030,10 +1019,19 @@ a{
 .sortFilterSorting__frame{
 	display: flex;
 }
-.sortFilterSortingCondition{
+.textIconButton{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 100%;
 }
-.sortFilterSortingCondition__icon{
+.textIconButton__frame{
 	margin-bottom: var(--result-04);
 }
-.sortFilterSortingCondition__iconImage{
+.textIconButton__frame--text{
+	font-size: var(--result-20);
+}
+.textIconButton__frame--image{
+}
+.textIconButton__image{
 }
