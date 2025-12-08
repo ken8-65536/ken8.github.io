@@ -1034,7 +1034,7 @@ a{
 }
 .textIconButton__frame--text{
 	font-size: var(--result-24);
-	color: var(--color-9);
+	color: var(--color-6);
 }
 .textIconButton__frame--image{
 	height: 24px;
