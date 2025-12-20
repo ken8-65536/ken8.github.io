@@ -1192,6 +1192,7 @@ a{
 .pagenationCount__number{
 	display: flex;
 	justify-content: space-between;
+	column-gap: 4px;
 	margin-bottom: 4px;
 }
 .pagenationCount__numberElement{
