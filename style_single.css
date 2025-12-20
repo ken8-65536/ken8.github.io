@@ -1177,6 +1177,9 @@ a{
 .pagenation__icon .textIconButton{
 	row-gap: 0;
 }
+.pagenation__icon .textIconButton__frame{
+	pointer-events: none;
+}
 .pagenation__icon .textIconButton__frame--image{
 	height: 20px;
 }
@@ -1185,7 +1188,6 @@ a{
     align-items: center;
 }
 .pagenationCount__frame{
-	pointer-events: none;
 }
 .pagenationCount__number{
 	display: flex;
