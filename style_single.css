@@ -818,6 +818,8 @@ a{
 	margin: 0 var(--result-08);
 }
 /*--記事一覧--*/
+.articleListFrame{
+}
 .articleList{
 	display: flex;
 	flex-wrap: wrap;
@@ -1148,7 +1150,7 @@ a{
 .searchResult__tagListLink{
 }
 /*--記事一覧--*/
-.searchArticle{
+.articleListFrame--search{
 }
 /*--ページネーション--*/
 .pagenation{
