@@ -1151,6 +1151,7 @@ a{
 }
 /*--記事一覧--*/
 .articleListFrame--search{
+	margin-bottom: var(--result-16);
 }
 /*--ページネーション--*/
 .pagenation{
