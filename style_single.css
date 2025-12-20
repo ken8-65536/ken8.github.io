@@ -764,7 +764,7 @@ a{
 }
 /*--ソート機能--*/
 .sort{
-	margin-bottom: var(--result-16);
+	margin-bottom: var(--result-32);
 }
 .sort__frame{
 	display: flex;
@@ -819,6 +819,7 @@ a{
 }
 /*--記事一覧--*/
 .articleListFrame{
+	margin-bottom: var(--result-32);
 }
 .articleList{
 	display: flex;
@@ -1148,10 +1149,6 @@ a{
 .searchResult__tagListElement{
 }
 .searchResult__tagListLink{
-}
-/*--記事一覧--*/
-.articleListFrame--search{
-	margin-bottom: var(--result-16);
 }
 /*--ページネーション--*/
 .pagenation{
