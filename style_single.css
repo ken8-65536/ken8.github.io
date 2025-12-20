@@ -1185,6 +1185,7 @@ a{
     align-items: center;
 }
 .pagenationCount__frame{
+	pointer-events: none;
 }
 .pagenationCount__number{
 	display: flex;
